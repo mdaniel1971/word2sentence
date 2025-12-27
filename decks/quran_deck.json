@@ -1,0 +1,4429 @@
+[
+  {
+    "id": 1,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أِلآهٌ",
+    "target_term": "god",
+    "details": {
+      "source_plural": "آلِهَةٌ",
+      "target_plural": "gods"
+    }
+  },
+  {
+    "id": 2,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَجْرٌ",
+    "target_term": "reward",
+    "details": {
+      "source_plural": "أُجُورٌ",
+      "target_plural": "rewards"
+    }
+  },
+  {
+    "id": 3,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "ٌآيَةٌ",
+    "target_term": "verse, sign, wonder",
+    "details": {
+      "source_plural": "آيات",
+      "target_plural": "verses, signs, wonders"
+    }
+  },
+  {
+    "id": 4,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "رَسولٌ",
+    "target_term": "messenger",
+    "details": {
+      "source_plural": "رُسُلٌ",
+      "target_plural": "messengers"
+    }
+  },
+  {
+    "id": 5,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "فَوزٌ",
+    "target_term": "victory",
+    "details": {
+      "source_plural": "فَوزٌ",
+      "target_plural": "victories"
+    }
+  },
+  {
+    "id": 6,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "يَومٌ",
+    "target_term": "day",
+    "details": {
+      "source_plural": "أَيَّامٌ",
+      "target_plural": "days"
+    }
+  },
+  {
+    "id": 7,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "شَديدٌ",
+    "target_term": "strong, severe",
+    "details": {
+      "source_plural": "شِدادٌ",
+      "target_plural": "strong, severe"
+    }
+  },
+  {
+    "id": 8,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سَمَاءٌ",
+    "target_term": "heaven, sky",
+    "details": {
+      "source_plural": "سَمَاواتٌ",
+      "target_plural": "heavens, skies"
+    }
+  },
+  {
+    "id": 9,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عَبْدٌ",
+    "target_term": "slave",
+    "details": {
+      "source_plural": "عَبْدَةٌ",
+      "target_plural": "slaves"
+    }
+  },
+  {
+    "id": 10,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "قَرنٌ",
+    "target_term": "generation",
+    "details": {
+      "source_plural": "قُرُونٌ",
+      "target_plural": "generations"
+    }
+  },
+  {
+    "id": 11,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "قَرْيَةٌ",
+    "target_term": "settlement, village",
+    "details": {
+      "source_plural": "قُرًى",
+      "target_plural": "settlements, villages"
+    }
+  },
+  {
+    "id": 12,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "قَومٌ",
+    "target_term": "people",
+    "details": {
+      "source_plural": "أَقْوامٌ",
+      "target_plural": "peoples"
+    }
+  },
+  {
+    "id": 13,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَنْفَعَةٌ",
+    "target_term": "benefit",
+    "details": {
+      "source_plural": "مَنَافِعُ",
+      "target_plural": "benefits"
+    }
+  },
+  {
+    "id": 14,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَعجَمِيٌّ",
+    "target_term": "non-Arab",
+    "details": {
+      "source_plural": "أَعجَمِيُّونَ",
+      "target_plural": "non-Arabs"
+    }
+  },
+  {
+    "id": 15,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نَصْرَانِيٌّ",
+    "target_term": "Christian",
+    "details": {
+      "source_plural": "نَصارَى",
+      "target_plural": "Christians"
+    }
+  },
+  {
+    "id": 16,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "يَهُدِيٌّ",
+    "target_term": "Jew",
+    "details": {
+      "source_plural": "يَهُودٌ",
+      "target_plural": "Jews"
+    }
+  },
+  {
+    "id": 17,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "فاكِهَةٌ",
+    "target_term": "fruit",
+    "details": {
+      "source_plural": "فَواكِهُ",
+      "target_plural": "fruits"
+    }
+  },
+  {
+    "id": 18,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "كَثِيرٌ",
+    "target_term": "many",
+    "details": {
+      "source_plural": "كِثَارٌ",
+      "target_plural": "many"
+    }
+  },
+  {
+    "id": 19,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "توَّابٌ",
+    "target_term": "repenting, relenting",
+    "details": {
+      "source_plural": "توَّابونَ",
+      "target_plural": "repenting, relenting"
+    }
+  },
+  {
+    "id": 20,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "مُكرَمٌ",
+    "target_term": "honoured",
+    "details": {
+      "source_plural": "مُكرمونَ",
+      "target_plural": "honoured"
+    }
+  },
+  {
+    "id": 21,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "جَنَّةٌ",
+    "target_term": "garden",
+    "details": {
+      "source_plural": "جَنَّاتٌ",
+      "target_plural": "gardens"
+    }
+  },
+  {
+    "id": 22,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "جَارِيَةٌ",
+    "target_term": "ship, young woman",
+    "details": {
+      "source_plural": "جَوَارٍ",
+      "target_plural": "ships, young womans"
+    }
+  },
+  {
+    "id": 23,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "فِتْنَةٌ",
+    "target_term": "affliction, temptation",
+    "details": {
+      "source_plural": "فِتَنٌ",
+      "target_plural": "afflictions, temptations"
+    }
+  },
+  {
+    "id": 24,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "وَادٍ",
+    "target_term": "valley",
+    "details": {
+      "source_plural": "أَودِيَةٌ",
+      "target_plural": "valleys"
+    }
+  },
+  {
+    "id": 25,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عَصًا",
+    "target_term": "staff",
+    "details": {
+      "source_plural": "عُصِيٌ",
+      "target_plural": "staffs"
+    }
+  },
+  {
+    "id": 26,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نَذِيرٌ",
+    "target_term": "warner",
+    "details": {
+      "source_plural": "نُذُرٌ",
+      "target_plural": "warners"
+    }
+  },
+  {
+    "id": 27,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "فَقِيرٌ",
+    "target_term": "poor",
+    "details": {
+      "source_plural": "فُقَرَاءُ",
+      "target_plural": "poor"
+    }
+  },
+  {
+    "id": 28,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "أَسْوَدٌ",
+    "target_term": "black/fem",
+    "details": {
+      "source_plural": "سَوْداءُ",
+      "target_plural": "black/fem"
+    }
+  },
+  {
+    "id": 29,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "أَبْيَضُ",
+    "target_term": "white / fem",
+    "details": {
+      "source_plural": "بَيضاءُ",
+      "target_plural": "white / fem"
+    }
+  },
+  {
+    "id": 30,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "عَالٍ",
+    "target_term": "high, lofty",
+    "details": {
+      "source_plural": "عالِيَةٌ",
+      "target_plural": "high, lofty"
+    }
+  },
+  {
+    "id": 31,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نَارٌ",
+    "target_term": "fire",
+    "details": {
+      "source_plural": "نِيرانٌ",
+      "target_plural": "fires"
+    }
+  },
+  {
+    "id": 32,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عُرفٌ",
+    "target_term": "custom, crest, ridge, height",
+    "details": {
+      "source_plural": "أَعْرافٌ",
+      "target_plural": "customs, crests, ridges, heights"
+    }
+  },
+  {
+    "id": 33,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "وَليٌّ",
+    "target_term": "protector",
+    "details": {
+      "source_plural": "أولِبيَاءُ",
+      "target_plural": "protectors"
+    }
+  },
+  {
+    "id": 34,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "خالِدٌ",
+    "target_term": "everlasting",
+    "details": {
+      "source_plural": "خالِدونَ",
+      "target_plural": "everlasting"
+    }
+  },
+  {
+    "id": 35,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نِعْمَةٌ",
+    "target_term": "blessing",
+    "details": {
+      "source_plural": "نِعْمَةٌ",
+      "target_plural": "bounty"
+    }
+  },
+  {
+    "id": 36,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "رَبَّ",
+    "target_term": "to be master, lord",
+    "details": {
+      "present": "يَرُبُّ",
+      "verbal_noun": "رُبُوبِيَّةٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 37,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عَمَلٌ",
+    "target_term": "work",
+    "details": {
+      "source_plural": "أَعْمالٌ",
+      "target_plural": "works"
+    }
+  },
+  {
+    "id": 38,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حَسْبٌ",
+    "target_term": "sufficiency, reckoning",
+    "details": {
+      "source_plural": "حَسْبٌ",
+      "target_plural": "sufficiencies, reckonings"
+    }
+  },
+  {
+    "id": 39,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سَمِيْعٌ",
+    "target_term": "hearing",
+    "details": {
+      "source_plural": "سَمِيْعٌ",
+      "target_plural": "hearings"
+    }
+  },
+  {
+    "id": 40,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حَياةٌ",
+    "target_term": "life",
+    "details": {
+      "source_plural": "حَياةٌ",
+      "target_plural": "lives"
+    }
+  },
+  {
+    "id": 41,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أُمَّةٌ",
+    "target_term": "community",
+    "details": {
+      "source_plural": "أُمَمٌ",
+      "target_plural": "communities"
+    }
+  },
+  {
+    "id": 42,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "شَيءٌ",
+    "target_term": "thing",
+    "details": {
+      "source_plural": "أَشْيَاءُ",
+      "target_plural": "things"
+    }
+  },
+  {
+    "id": 43,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "دَارٌ",
+    "target_term": "abode",
+    "details": {
+      "source_plural": "دُورٌ",
+      "target_plural": "abodes"
+    }
+  },
+  {
+    "id": 44,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حِزبٌ",
+    "target_term": "party",
+    "details": {
+      "source_plural": "أَحزَابٌ",
+      "target_plural": "parties"
+    }
+  },
+  {
+    "id": 45,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَثَرٌ",
+    "target_term": "track, effect",
+    "details": {
+      "source_plural": "آثارٌ",
+      "target_plural": "tracks, effects"
+    }
+  },
+  {
+    "id": 46,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نَاقَةٌ",
+    "target_term": "she-camel",
+    "details": {
+      "source_plural": "نِيَاقٌ",
+      "target_plural": "she-camels"
+    }
+  },
+  {
+    "id": 47,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "فَضْلٌ",
+    "target_term": "e.g. of Allah) bounty)",
+    "details": {
+      "source_plural": "فَضْلٌ",
+      "target_plural": "e.g. of Allah) bounty)s"
+    }
+  },
+  {
+    "id": 48,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سِحْرٌ",
+    "target_term": "magic",
+    "details": {
+      "source_plural": "سِحْرٌ",
+      "target_plural": "magics"
+    }
+  },
+  {
+    "id": 49,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "صِرَاطٌ",
+    "target_term": "path",
+    "details": {
+      "source_plural": "صِرَاطٌ",
+      "target_plural": "paths"
+    }
+  },
+  {
+    "id": 50,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "قَمِيصٌ",
+    "target_term": "shirt",
+    "details": {
+      "source_plural": "قَمِيصٌ",
+      "target_plural": "shirts"
+    }
+  },
+  {
+    "id": 51,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مُجْرِمٌ",
+    "target_term": "sinner",
+    "details": {
+      "source_plural": "مُجْرِمٌ",
+      "target_plural": "sinners"
+    }
+  },
+  {
+    "id": 52,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "مُسْتَقِيمٌ",
+    "target_term": "straight",
+    "details": {
+      "source_plural": "مُسْتَقِيمٌ",
+      "target_plural": "straight"
+    }
+  },
+  {
+    "id": 53,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "عَجِيبٌ",
+    "target_term": "strange, wonderful",
+    "details": {
+      "source_plural": "عَجِيبٌ",
+      "target_plural": "strange, wonderful"
+    }
+  },
+  {
+    "id": 54,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "حَلالٌ",
+    "target_term": "permissible",
+    "details": {
+      "source_plural": "حَلالٌ",
+      "target_plural": "permissible"
+    }
+  },
+  {
+    "id": 55,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "حَرامٌ",
+    "target_term": "forbidden, sacred",
+    "details": {
+      "source_plural": "حَرامٌ",
+      "target_plural": "forbidden, sacred"
+    }
+  },
+  {
+    "id": 56,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "يَسِيرٌ",
+    "target_term": "easy",
+    "details": {
+      "source_plural": "يَسِيرٌ",
+      "target_plural": "easy"
+    }
+  },
+  {
+    "id": 57,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "عَسِيرٌ",
+    "target_term": "difficult",
+    "details": {
+      "source_plural": "عَسِيرٌ",
+      "target_plural": "difficult"
+    }
+  },
+  {
+    "id": 58,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "فَضْلٌ",
+    "target_term": "bounty, virtue, grace",
+    "details": {
+      "source_plural": "فُضُولٌ",
+      "target_plural": "bounties, virtues, graces"
+    }
+  },
+  {
+    "id": 59,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَلعَالمينَ",
+    "target_term": "created beings",
+    "details": {
+      "source_plural": "أَلعَالمينَ",
+      "target_plural": "created beingses"
+    }
+  },
+  {
+    "id": 60,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "شَفٍا",
+    "target_term": "lip, rim, edge",
+    "details": {
+      "source_plural": "شَفٍا",
+      "target_plural": "lips, rims, edges"
+    }
+  },
+  {
+    "id": 61,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حُفْرَةٌ",
+    "target_term": "pit",
+    "details": {
+      "source_plural": "حُفْرَةٌ",
+      "target_plural": "pits"
+    }
+  },
+  {
+    "id": 62,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "طَاءِفَةٌ",
+    "target_term": "group, number, party",
+    "details": {
+      "source_plural": "طَاءِفَةٌ",
+      "target_plural": "groups, numbers, parties"
+    }
+  },
+  {
+    "id": 63,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَمرٌ",
+    "target_term": "order, command, affair, matter - two plurals",
+    "details": {
+      "source_plural": "أُمُورٌ",
+      "target_plural": "orders, commands, affairs, matter - two pluralses"
+    }
+  },
+  {
+    "id": 64,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "اِنسانٌ",
+    "target_term": "man, human being, someone",
+    "details": {
+      "source_plural": "اِنسانٌ",
+      "target_plural": "men, human beings, someones"
+    }
+  },
+  {
+    "id": 65,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَلبلبٌ",
+    "target_term": "hearts",
+    "details": {
+      "source_plural": "أَلبلبٌ",
+      "target_plural": "intellects"
+    }
+  },
+  {
+    "id": 66,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَصَرٌ",
+    "target_term": "sight",
+    "details": {
+      "source_plural": "أَبْصارٌ",
+      "target_plural": "sights"
+    }
+  },
+  {
+    "id": 67,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "يَدٌ",
+    "target_term": "hand",
+    "details": {
+      "source_plural": "أَيدٍ",
+      "target_plural": "hands"
+    }
+  },
+  {
+    "id": 68,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "شَيطانٌ",
+    "target_term": "devil",
+    "details": {
+      "source_plural": "شَياطينُ",
+      "target_plural": "devils"
+    }
+  },
+  {
+    "id": 69,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عَاقِبَةٌ",
+    "target_term": "end, consequence",
+    "details": {
+      "source_plural": "عَاقِبَةٌ",
+      "target_plural": "ends, consequences"
+    }
+  },
+  {
+    "id": 70,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "حَمَلَ",
+    "target_term": "to carry, prompt, induce",
+    "details": {
+      "present": "يَحْمِلُ",
+      "verbal_noun": "حَمْلٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 71,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "سَمِعَ",
+    "target_term": "to hear",
+    "details": {
+      "present": "يَسْمَعُ",
+      "verbal_noun": "سَمْعٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 72,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "شَرِبَ",
+    "target_term": "to drink",
+    "details": {
+      "present": "يَشْرَبُ",
+      "verbal_noun": "شُرْبٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 73,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "شَهِدَ",
+    "target_term": "to witness",
+    "details": {
+      "present": "يَشْهَدُ",
+      "verbal_noun": "شَهَادَةٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 74,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "عَمِلَ",
+    "target_term": "to work",
+    "details": {
+      "present": "يَعْمَلُ",
+      "verbal_noun": "عَمَلٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 75,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "وَعَدَ",
+    "target_term": "to promise",
+    "details": {
+      "present": "يَعِدُ",
+      "verbal_noun": "وَعْدٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 76,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "كَرِهَ",
+    "target_term": "to be reluctant, to hate",
+    "details": {
+      "present": "يَكْرَهُ",
+      "verbal_noun": "كَرْهٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 77,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "لَبِثَ",
+    "target_term": "to tarry, linger",
+    "details": {
+      "present": "يَلْبَثُ",
+      "verbal_noun": "لَبْثٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 78,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سَيِّئَةٌ",
+    "target_term": "evil, ill",
+    "details": {
+      "source_plural": "سَيِّئَاتٌ",
+      "target_plural": "evils, ills"
+    }
+  },
+  {
+    "id": 79,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "ضِيَاءٌ",
+    "target_term": "illumination",
+    "details": {
+      "source_plural": "ضِيَاءٌ",
+      "target_plural": "illuminations"
+    }
+  },
+  {
+    "id": 80,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "نُورٌ",
+    "target_term": "light",
+    "details": {
+      "source_plural": "أَنوارٌ",
+      "target_plural": "light"
+    }
+  },
+  {
+    "id": 81,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَثَلٌ",
+    "target_term": "example",
+    "details": {
+      "source_plural": "أَمْثالٌ",
+      "target_plural": "examples"
+    }
+  },
+  {
+    "id": 82,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَطْلِعٌ",
+    "target_term": "rising-place",
+    "details": {
+      "source_plural": "مَطْلِعٌ",
+      "target_plural": "rising-places"
+    }
+  },
+  {
+    "id": 83,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَغْرِبٌ",
+    "target_term": "setting-place",
+    "details": {
+      "source_plural": "مَغَارِبُ",
+      "target_plural": "setting-places"
+    }
+  },
+  {
+    "id": 84,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَرٌّ",
+    "target_term": "land",
+    "details": {
+      "source_plural": "بَرًّا",
+      "target_plural": "by land, on land"
+    }
+  },
+  {
+    "id": 85,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَحْرٌ",
+    "target_term": "sea",
+    "details": {
+      "source_plural": "بِحارٌ",
+      "target_plural": "seas"
+    }
+  },
+  {
+    "id": 86,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حَمْلٌ",
+    "target_term": "load",
+    "details": {
+      "source_plural": "حَمْلٌ",
+      "target_plural": "loads"
+    }
+  },
+  {
+    "id": 87,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَعْثٌ",
+    "target_term": "resurrection, sending",
+    "details": null
+  },
+  {
+    "id": 88,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "ألزَّبُورُ",
+    "target_term": "Psalms",
+    "details": null
+  },
+  {
+    "id": 89,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "خَفِيفٌ",
+    "target_term": "light",
+    "details": {
+      "source_plural": "خَفِيفٌ",
+      "target_plural": "light"
+    }
+  },
+  {
+    "id": 90,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "خَلَقَ",
+    "target_term": "to create",
+    "details": {
+      "present": "يَخْلُقُ",
+      "verbal_noun": "خَلْقٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 91,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "دَخَلَ",
+    "target_term": "to enter",
+    "details": {
+      "present": "يَدْخُلُ",
+      "verbal_noun": "دُخُولٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 92,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "ذَكَرَ",
+    "target_term": "to mention",
+    "details": {
+      "present": "يَذْكُرُ",
+      "verbal_noun": "ذِكْرٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 93,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "ذَهَبَ",
+    "target_term": "to go",
+    "details": {
+      "present": "يَذْهَبُ",
+      "verbal_noun": "ذَهَابٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 94,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "ضَرَبَ",
+    "target_term": "to strike, set forth, journey",
+    "details": {
+      "present": "يَضْرِبُ",
+      "verbal_noun": "ضَرْبٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 95,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "كَتَبَ",
+    "target_term": "to write",
+    "details": {
+      "present": "يَكْتُبُ",
+      "verbal_noun": "كِتَابَةٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 96,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "وَجَدَ",
+    "target_term": "to find",
+    "details": {
+      "present": "يَجِدُ",
+      "verbal_noun": "وُجُودٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 97,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "ظَهَرَ",
+    "target_term": "to appear, climb, scale, overcome",
+    "details": {
+      "present": "يَظْهَرُ",
+      "verbal_noun": "ظُهُوْرٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 98,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَخَذَ",
+    "target_term": "to take",
+    "details": {
+      "present": "يَأْخُذُ",
+      "verbal_noun": "أَخْذٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 99,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَمَرَ",
+    "target_term": "to order",
+    "details": {
+      "present": "يَأْمُرُ",
+      "verbal_noun": "أَمْرٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 100,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "تَبِعَ",
+    "target_term": "to follow",
+    "details": {
+      "present": "تَبِعَ",
+      "form": 1
+    }
+  },
+  {
+    "id": 101,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "خَرَجَ",
+    "target_term": "to go out",
+    "details": {
+      "present": "يَخْرُجُ",
+      "verbal_noun": "خُرُوجٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 102,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "رَفَعَ",
+    "target_term": "to raise",
+    "details": {
+      "present": "يَرْفَعُ",
+      "verbal_noun": "رَفْعٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 103,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "سَأَلَ",
+    "target_term": "to ask",
+    "details": {
+      "present": "يَسْأَلُ",
+      "verbal_noun": "سُؤَالٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 104,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "فَعَلَ",
+    "target_term": "to do",
+    "details": {
+      "present": "يَفْعَلُ",
+      "verbal_noun": "فَعْلَةٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 105,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "كَذَبَ",
+    "target_term": "to tell lies",
+    "details": {
+      "present": "يَكْذِبُ",
+      "verbal_noun": "كِذْبٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 106,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "نَصَرَ",
+    "target_term": "to help",
+    "details": {
+      "present": "يَنْصُرُ",
+      "verbal_noun": "نَصْرٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 107,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "عَلِمَ",
+    "target_term": "to know",
+    "details": {
+      "present": "يَعْلَمُ",
+      "verbal_noun": "عِلْمٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 108,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أِذْنٌ",
+    "target_term": "permission",
+    "details": {
+      "source_plural": "أِذْنٌ",
+      "target_plural": "permissions"
+    }
+  },
+  {
+    "id": 109,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "ذَنْبٌ",
+    "target_term": "sin",
+    "details": {
+      "source_plural": "ذُنُوْبٌ",
+      "target_plural": "sins"
+    }
+  },
+  {
+    "id": 110,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "لَعْنَةٌ",
+    "target_term": "curse",
+    "details": {
+      "source_plural": "لَعْنَةٌ",
+      "target_plural": "curses"
+    }
+  },
+  {
+    "id": 111,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نَفْسٌ",
+    "target_term": "soul, self 2pls",
+    "details": {
+      "source_plural": "أنْفُسٌ",
+      "target_plural": "souls, self 2plses"
+    }
+  },
+  {
+    "id": 112,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "خِلالَ",
+    "target_term": "During, meanwhile, through",
+    "details": {
+      "source_plural": "خِلالَ",
+      "target_plural": "Durings, meanwhiles, throughs"
+    }
+  },
+  {
+    "id": 113,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "ظَلَمَ",
+    "target_term": "to do wrong",
+    "details": {
+      "present": "يَظْلِمُ",
+      "verbal_noun": "ظُلْمٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 114,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "كَسَبَ",
+    "target_term": "to acquire, earn, gain",
+    "details": {
+      "present": "يَكْسِبُ",
+      "verbal_noun": "كَسْبٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 116,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "فَرَضَ",
+    "target_term": "to assign, prescribe, determine",
+    "details": {
+      "present": "يَفْرِضُ",
+      "verbal_noun": "فَرْضٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 117,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "قَدَمَ",
+    "target_term": "to precede, advance on",
+    "details": {
+      "verbal_noun": "قُدُومٌ",
+      "present": "يَقْدُمُ",
+      "form": 1
+    }
+  },
+  {
+    "id": 118,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "كَنَزَ",
+    "target_term": "to store, gather, save, bury",
+    "details": {
+      "verbal_noun": "كَنْزٌ",
+      "present": "يَكْنِزُ",
+      "form": 1
+    }
+  },
+  {
+    "id": 119,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "مَنَعَ",
+    "target_term": "to prevent, hinder, deny",
+    "details": {
+      "verbal_noun": "مَنْعٌ",
+      "present": "يَمْنَعُ",
+      "form": 1
+    }
+  },
+  {
+    "id": 120,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "وَقَعَ",
+    "target_term": "to fall, come to pass",
+    "details": {
+      "verbal_noun": "وُقُوعٌ",
+      "present": "يَقَعُ",
+      "form": 1
+    }
+  },
+  {
+    "id": 121,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَشَرٌ",
+    "target_term": "human being, men, mankind",
+    "details": {
+      "source_plural": "بَشَرٌ",
+      "target_plural": "human beings, mens, mankinds"
+    }
+  },
+  {
+    "id": 122,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سُوءٌ",
+    "target_term": "evil, wrong",
+    "details": {
+      "source_plural": "سُوءٌ",
+      "target_plural": "evils, wrongs"
+    }
+  },
+  {
+    "id": 123,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "شَهِيدٌ",
+    "target_term": "witness",
+    "details": {
+      "source_plural": "شَاهِدٌ",
+      "target_plural": "es"
+    }
+  },
+  {
+    "id": 124,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "قَوْلٌ",
+    "target_term": "saying",
+    "details": {
+      "source_plural": "أَقْوالٌ",
+      "target_plural": "sayings"
+    }
+  },
+  {
+    "id": 125,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَقَامٌ",
+    "target_term": "station",
+    "details": {
+      "source_plural": "مَقَامٌ",
+      "target_plural": "stations"
+    }
+  },
+  {
+    "id": 126,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مُلكٌ",
+    "target_term": "sovereignty",
+    "details": {
+      "source_plural": "مُلكٌ",
+      "target_plural": "kingdom"
+    }
+  },
+  {
+    "id": 127,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نَصِيرٌ",
+    "target_term": "helper",
+    "details": {
+      "source_plural": "نَاصِرٌ",
+      "target_plural": "helpers"
+    }
+  },
+  {
+    "id": 128,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نِصْفٌ",
+    "target_term": "half",
+    "details": {
+      "source_plural": "نِصْفٌ",
+      "target_plural": "halves"
+    }
+  },
+  {
+    "id": 129,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "خَيْرٌ",
+    "target_term": "good",
+    "details": {
+      "source_plural": "خَيْرٌ",
+      "target_plural": "goods"
+    }
+  },
+  {
+    "id": 130,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَجنُونٌ",
+    "target_term": "possessed",
+    "details": {
+      "source_plural": "مَجنُونٌ",
+      "target_plural": "possesseds"
+    }
+  },
+  {
+    "id": 131,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَعْرُوفٌ",
+    "target_term": "kindness, known, well-known",
+    "details": {
+      "source_plural": "مَعْرُوفٌ",
+      "target_plural": "kindnesses, knowns, well-knowns"
+    }
+  },
+  {
+    "id": 132,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَعْلُومٌ",
+    "target_term": "known",
+    "details": {
+      "source_plural": "مَعْلُومٌ",
+      "target_plural": "knowns"
+    }
+  },
+  {
+    "id": 133,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَيِّتٌ",
+    "target_term": "dead",
+    "details": {
+      "source_plural": "مَيِّتُونَ",
+      "target_plural": "deads"
+    }
+  },
+  {
+    "id": 134,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "خَلْفَ",
+    "target_term": "behind",
+    "details": {
+      "source_plural": "خَلْفَ",
+      "target_plural": "behinds"
+    }
+  },
+  {
+    "id": 135,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أِلَّا",
+    "target_term": "except",
+    "details": {
+      "source_plural": "أِلَّا",
+      "target_plural": "excepts"
+    }
+  },
+  {
+    "id": 136,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "حَفِظَ",
+    "target_term": "to guard, protect",
+    "details": {
+      "present": "يَحْفَظُ",
+      "verbal_noun": "حِفْظٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 137,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَجَلٌ",
+    "target_term": "term",
+    "details": {
+      "source_plural": "أَجَلٌ",
+      "target_plural": "terms"
+    }
+  },
+  {
+    "id": 138,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "ثَمَرَةٌ",
+    "target_term": "fruit",
+    "details": {
+      "source_plural": "ثَمَرَاتٌ",
+      "target_plural": "fruits"
+    }
+  },
+  {
+    "id": 139,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حَفِيظٌ",
+    "target_term": "guardian",
+    "details": {
+      "source_plural": "حُفّاظ",
+      "target_plural": "guardians"
+    }
+  },
+  {
+    "id": 140,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "رَهِينٌ",
+    "target_term": "hostage",
+    "details": {
+      "source_plural": "رَهِينٌ",
+      "target_plural": "pledged"
+    }
+  },
+  {
+    "id": 141,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "ظَنٌّ",
+    "target_term": "thought, supposition, conjecture",
+    "details": {
+      "source_plural": "ظُنُونٌ",
+      "target_plural": "thoughts, suppositions, conjectures"
+    }
+  },
+  {
+    "id": 142,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَغْفِرَةٌ",
+    "target_term": "forgiveness",
+    "details": {
+      "source_plural": "مَغْفِرَةٌ",
+      "target_plural": "forgivenesses"
+    }
+  },
+  {
+    "id": 143,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَكَانٌ",
+    "target_term": "place",
+    "details": {
+      "source_plural": "أمكِنَةٌ",
+      "target_plural": "places"
+    }
+  },
+  {
+    "id": 144,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "لَيلٌ",
+    "target_term": "night",
+    "details": {
+      "source_plural": "لَيالٌ",
+      "target_plural": "nights"
+    }
+  },
+  {
+    "id": 145,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَرَةٌ",
+    "target_term": "time, occasion",
+    "details": {
+      "source_plural": "مَرَاتٌ",
+      "target_plural": "times, occasions"
+    }
+  },
+  {
+    "id": 146,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَوتٌ",
+    "target_term": "death",
+    "details": {
+      "source_plural": "مَوتٌ",
+      "target_plural": "deaths"
+    }
+  },
+  {
+    "id": 147,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَعْمَى",
+    "target_term": "blind/f",
+    "details": {
+      "source_plural": "عَمْيَاءُ",
+      "target_plural": "blind/ves"
+    }
+  },
+  {
+    "id": 148,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "لَبِسَ",
+    "target_term": "to wear, put on",
+    "details": {
+      "verbal_noun": "لِبَاسٌ",
+      "present": "يَلْبَسُ",
+      "form": 1
+    }
+  },
+  {
+    "id": 149,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حَرَجٌ",
+    "target_term": "trouble",
+    "details": {
+      "source_plural": "حَرَجٌ",
+      "target_plural": "troubles"
+    }
+  },
+  {
+    "id": 150,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أُسوَةٌ",
+    "target_term": "example",
+    "details": {
+      "source_plural": "أُسوَةٌ",
+      "target_plural": "examples"
+    }
+  },
+  {
+    "id": 151,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "رَقِيبٌ",
+    "target_term": "watcher",
+    "details": {
+      "source_plural": "رَقِيبٌ",
+      "target_plural": "watchers"
+    }
+  },
+  {
+    "id": 152,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سَارِقٌ",
+    "target_term": "thief",
+    "details": {
+      "source_plural": "سَرَقَةٌ",
+      "target_plural": "thieves"
+    }
+  },
+  {
+    "id": 153,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "لِصٌّ",
+    "target_term": "thief",
+    "details": {
+      "source_plural": "الصَاصٌ",
+      "target_plural": "thieves"
+    }
+  },
+  {
+    "id": 154,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عِبْرَةٌ",
+    "target_term": "lesson, warning",
+    "details": {
+      "source_plural": "عِبْرَةٌ",
+      "target_plural": "lessons, warnings"
+    }
+  },
+  {
+    "id": 155,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عَجَبٌ",
+    "target_term": "wonder",
+    "details": {
+      "source_plural": "عَجَبٌ",
+      "target_plural": "wonders"
+    }
+  },
+  {
+    "id": 156,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "غَفْلَةٌ",
+    "target_term": "heedlessness",
+    "details": {
+      "source_plural": "غَفْلَةٌ",
+      "target_plural": "heedlessnesses"
+    }
+  },
+  {
+    "id": 157,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "قَصَصٌ",
+    "target_term": "story",
+    "details": {
+      "source_plural": "قِصَصٌ",
+      "target_plural": "stories"
+    }
+  },
+  {
+    "id": 158,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "لَوحٌ",
+    "target_term": "tablet",
+    "details": {
+      "source_plural": "ألوَاحٌ",
+      "target_plural": "tablets"
+    }
+  },
+  {
+    "id": 159,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "فاحِشَةٌ",
+    "target_term": "abomination",
+    "details": {
+      "source_plural": "فَوَاحِشُ",
+      "target_plural": "abominations"
+    }
+  },
+  {
+    "id": 160,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "هَشِيمٌ",
+    "target_term": "dry twigs, stubble",
+    "details": {
+      "source_plural": "هَشِيمٌ",
+      "target_plural": "dry twigses, stubbles"
+    }
+  },
+  {
+    "id": 161,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَصِيرٌ",
+    "target_term": "observant, seeing",
+    "details": {
+      "source_plural": "بَصِيرٌ",
+      "target_plural": "observants, seeings"
+    }
+  },
+  {
+    "id": 162,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "غَافِلٌ",
+    "target_term": "heedless",
+    "details": {
+      "source_plural": "غَافِلٌ",
+      "target_plural": "heedlesses"
+    }
+  },
+  {
+    "id": 163,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "خَبِيرٌ",
+    "target_term": "aware",
+    "details": {
+      "source_plural": "خَبِيرٌ",
+      "target_plural": "awares"
+    }
+  },
+  {
+    "id": 164,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "غَفُورٌ",
+    "target_term": "forgiving",
+    "details": {
+      "source_plural": "غَفُورٌ",
+      "target_plural": "forgivings"
+    }
+  },
+  {
+    "id": 165,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَفْعُولٌ",
+    "target_term": "done",
+    "details": {
+      "source_plural": "مَفْعُولٌ",
+      "target_plural": "dones"
+    }
+  },
+  {
+    "id": 166,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَرِيضٌ",
+    "target_term": "ill, sick",
+    "details": {
+      "source_plural": "مَرْضَى",
+      "target_plural": "ills, sicks"
+    }
+  },
+  {
+    "id": 167,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مُوْسَى",
+    "target_term": "Moses",
+    "details": {
+      "source_plural": "مُوْسَى",
+      "target_plural": "Moseses"
+    }
+  },
+  {
+    "id": 168,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أِبْراهِيمُ",
+    "target_term": "Abraham",
+    "details": {
+      "source_plural": "أِبْراهِيمُ",
+      "target_plural": "Abrahams"
+    }
+  },
+  {
+    "id": 169,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "سَجَنَ",
+    "target_term": "to imprison, prison",
+    "details": {
+      "present": "يَسْجُنُ",
+      "verbal_noun": "سَجْنٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 170,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "وَالدٌ",
+    "target_term": "father",
+    "details": {
+      "source_plural": "وَالِدانِ",
+      "target_plural": "parents"
+    }
+  },
+  {
+    "id": 171,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "فَتًى",
+    "target_term": "youth",
+    "details": {
+      "source_plural": "فِتْيَةٌ",
+      "target_plural": "youths"
+    }
+  },
+  {
+    "id": 172,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "ساحِرٌ",
+    "target_term": "Charming, enchanting",
+    "details": {
+      "source_plural": "ساحِرٌ",
+      "target_plural": "Charmings, enchantings"
+    }
+  },
+  {
+    "id": 173,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بُرْهَانٌ",
+    "target_term": "proof",
+    "details": {
+      "source_plural": "بُرْهَانٌ",
+      "target_plural": "prooves"
+    }
+  },
+  {
+    "id": 174,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَجْمَعٌ",
+    "target_term": "meeting, meeting-place, confluence",
+    "details": {
+      "source_plural": "مَجْمَعٌ",
+      "target_plural": "meetings, meeting-places, confluences"
+    }
+  },
+  {
+    "id": 175,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عَيْنٌ",
+    "target_term": "spring, eye",
+    "details": {
+      "source_plural": "عُيُوونٌ",
+      "target_plural": "spring, eyes"
+    }
+  },
+  {
+    "id": 176,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حَجَابٌ",
+    "target_term": "obstacle, partition, veil",
+    "details": {
+      "source_plural": "حَجَابٌ",
+      "target_plural": "obstacles, partitions, veils"
+    }
+  },
+  {
+    "id": 177,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "شَرِيكٌ",
+    "target_term": "partner, associate",
+    "details": {
+      "source_plural": "شُرَكَاءُ",
+      "target_plural": "partners, associates"
+    }
+  },
+  {
+    "id": 178,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "زَرْعٌ",
+    "target_term": "cultivation, green crops",
+    "details": {
+      "source_plural": "زَرْعٌ",
+      "target_plural": "cultivations, green cropses"
+    }
+  },
+  {
+    "id": 179,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نَخْلٌ",
+    "target_term": "date-palms",
+    "details": {
+      "source_plural": "نَخْلٌ",
+      "target_plural": "date-palmses"
+    }
+  },
+  {
+    "id": 180,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "رُمَّانٌ",
+    "target_term": "pomegranate",
+    "details": {
+      "source_plural": "رُمَّانٌ",
+      "target_plural": "pomegranates"
+    }
+  },
+  {
+    "id": 181,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَبْسُوطٌ",
+    "target_term": "spread, extended, happy",
+    "details": {
+      "source_plural": "مَبْسُوطُونَ",
+      "target_plural": "spread, extended, happy"
+    }
+  },
+  {
+    "id": 182,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "فِئَتٌ",
+    "target_term": "party, group",
+    "details": {
+      "source_plural": "فِئَتٌ",
+      "target_plural": "parties, groups"
+    }
+  },
+  {
+    "id": 183,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عَينٌ",
+    "target_term": "eye",
+    "details": {
+      "source_plural": "أَعيُنٌ",
+      "target_plural": "eyes"
+    }
+  },
+  {
+    "id": 184,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حِجَّةٌ",
+    "target_term": "year",
+    "details": {
+      "source_plural": "حِجَجٌ",
+      "target_plural": "years"
+    }
+  },
+  {
+    "id": 185,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "كَوْكَبٌ",
+    "target_term": "star",
+    "details": {
+      "source_plural": "كَواكِبُ",
+      "target_plural": "stars"
+    }
+  },
+  {
+    "id": 186,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نَقِيبٌ",
+    "target_term": "chief",
+    "details": {
+      "source_plural": "نُقَبَاءُ",
+      "target_plural": "chiefs"
+    }
+  },
+  {
+    "id": 187,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "جَلدَةٌ",
+    "target_term": "lash, stripe",
+    "details": {
+      "source_plural": "جَلدَةٌ",
+      "target_plural": "lashes, stripes"
+    }
+  },
+  {
+    "id": 188,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عَجِيفٌ",
+    "target_term": "thin",
+    "details": {
+      "source_plural": "عِجَافٌ",
+      "target_plural": "thins"
+    }
+  },
+  {
+    "id": 189,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "ثَابِتٌ",
+    "target_term": "fixed, firm",
+    "details": {
+      "source_plural": "ثَابِتٌ",
+      "target_plural": "fixeds, firms"
+    }
+  },
+  {
+    "id": 190,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "ثَقِيلٌ",
+    "target_term": "heavy",
+    "details": {
+      "source_plural": "ثَقِيلٌ",
+      "target_plural": "heavy"
+    }
+  },
+  {
+    "id": 191,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "جَبِينٌ",
+    "target_term": "forehead",
+    "details": {
+      "source_plural": "جُبُنٌ",
+      "target_plural": "foreheads"
+    }
+  },
+  {
+    "id": 192,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "جَلْسَةٌ",
+    "target_term": "session, sitting",
+    "details": {
+      "source_plural": "جَلَسَاتٌ",
+      "target_plural": "sessions, sittings"
+    }
+  },
+  {
+    "id": 193,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "جَمَالٌ",
+    "target_term": "beauty",
+    "details": {
+      "source_plural": "جَمَالٌ",
+      "target_plural": "beauties"
+    }
+  },
+  {
+    "id": 194,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَجْنَبِيٌّ",
+    "target_term": "foreign",
+    "details": {
+      "source_plural": "أَجَانِبُ",
+      "target_plural": "foreigns"
+    }
+  },
+  {
+    "id": 195,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَجْهُولٌ",
+    "target_term": "unknown",
+    "details": {
+      "source_plural": "مَجْهُولٌ",
+      "target_plural": "unknowns"
+    }
+  },
+  {
+    "id": 196,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "جَوَابٌ",
+    "target_term": "reply, answer",
+    "details": {
+      "source_plural": "أَجْوِبَةٌ",
+      "target_plural": "replies, answers"
+    }
+  },
+  {
+    "id": 197,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "جَارٌ",
+    "target_term": "neighbour",
+    "details": {
+      "source_plural": "جِيرَانٌ",
+      "target_plural": "neighbours"
+    }
+  },
+  {
+    "id": 198,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حُرِّيَّةٌ",
+    "target_term": "liberty, freedom",
+    "details": {
+      "source_plural": "حُرِّيَّةٌ",
+      "target_plural": "liberties, freedoms"
+    }
+  },
+  {
+    "id": 199,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حَارِسٌ",
+    "target_term": "guard, sentry",
+    "details": {
+      "source_plural": "حُرَّاسٌ",
+      "target_plural": "guards, sentries"
+    }
+  },
+  {
+    "id": 200,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "اَلرَّبيِعُ",
+    "target_term": "spring, the season of spring",
+    "details": {
+      "source_plural": "فَصْلُ الرَّبِيعِ",
+      "target_plural": "springs, the season of springs"
+    }
+  },
+  {
+    "id": 201,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "اَلصَّيْفُ",
+    "target_term": "summer",
+    "details": {
+      "source_plural": "اَلصَّيْفُ",
+      "target_plural": "summers"
+    }
+  },
+  {
+    "id": 202,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَلخَرِيفُ",
+    "target_term": "autumn",
+    "details": {
+      "source_plural": "أَلخَرِيفُ",
+      "target_plural": "autumns"
+    }
+  },
+  {
+    "id": 203,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَلشِتَاءُ",
+    "target_term": "winter",
+    "details": {
+      "source_plural": "أَلشِتَاءُ",
+      "target_plural": "winters"
+    }
+  },
+  {
+    "id": 204,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "خُصُوصًا",
+    "target_term": "especially",
+    "details": {
+      "source_plural": "خُصُوصًا",
+      "target_plural": "especiallies"
+    }
+  },
+  {
+    "id": 205,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "دِرْهَمٌ",
+    "target_term": "dirham",
+    "details": {
+      "source_plural": "دَرَاهِمُ",
+      "target_plural": "dirhams"
+    }
+  },
+  {
+    "id": 206,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "دَفَعَ",
+    "target_term": "to push, pay, drive, move",
+    "details": {
+      "present": "يَدْفَعُ",
+      "verbal_noun": "دَفْعٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 207,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "دُوَلِيٌّ",
+    "target_term": "international",
+    "details": {
+      "source_plural": "دُوَلِيٌّ",
+      "target_plural": "internationals"
+    }
+  },
+  {
+    "id": 208,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "اِنْتِخَاباتٌ",
+    "target_term": "elections",
+    "details": {
+      "source_plural": "اِنْتِخَاباتٌ",
+      "target_plural": "electionses"
+    }
+  },
+  {
+    "id": 209,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بِلَا",
+    "target_term": "without",
+    "details": {
+      "source_plural": "بِدُونِ",
+      "target_plural": "withouts"
+    }
+  },
+  {
+    "id": 210,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "لُبْنَانُ",
+    "target_term": "Lebanon",
+    "details": {
+      "source_plural": "لُبْنَانُ",
+      "target_plural": "Lebanons"
+    }
+  },
+  {
+    "id": 211,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "شَرٌ",
+    "target_term": "evil, bad, mischief",
+    "details": {
+      "source_plural": "شَرٌ",
+      "target_plural": "evils, bads, mischieves"
+    }
+  },
+  {
+    "id": 212,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "قَدَّمَ",
+    "target_term": "to bring or send forward",
+    "details": {
+      "present": "يُقَدِّمُ",
+      "verbal_noun": "تَقْدِيمٌ",
+      "form": 2
+    }
+  },
+  {
+    "id": 213,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "قَدَّرَ",
+    "target_term": "to determine, ordain",
+    "details": {
+      "present": "يُقَدِّرُ",
+      "verbal_noun": "تَقْدِيرٌ",
+      "form": 2
+    }
+  },
+  {
+    "id": 214,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "شَدَّ",
+    "target_term": "to be violent, difficult",
+    "details": {
+      "verbal_noun": "شَدٌّ",
+      "present": "يَشُدُّ",
+      "form": 1
+    }
+  },
+  {
+    "id": 215,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَخَّرَ",
+    "target_term": "to defer, leave behind",
+    "details": {
+      "present": "يُؤَخِّرُ",
+      "verbal_noun": "تَأْخِيرٌ",
+      "form": 2
+    }
+  },
+  {
+    "id": 216,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "كَذَّبَ",
+    "target_term": "to deny, give the lie to",
+    "details": {
+      "present": "يُكَذِّبُ",
+      "verbal_noun": "تَكْذِيبٌ",
+      "form": 2
+    }
+  },
+  {
+    "id": 217,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "جَادَلَ",
+    "target_term": "to dispute, contend with",
+    "details": {
+      "present": "يُجَادِلُ",
+      "verbal_noun": "مُجَادَلَةٌ",
+      "form": 3
+    }
+  },
+  {
+    "id": 218,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "جَاهَدَ",
+    "target_term": "to strive",
+    "details": {
+      "present": "يُجَاهِدُ",
+      "verbal_noun": "جِهَادٌ",
+      "form": 3
+    }
+  },
+  {
+    "id": 219,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "قَاتَلَ",
+    "target_term": "to fight, confound",
+    "details": {
+      "present": "يُقَاتِلُ",
+      "verbal_noun": "قِتَالٌ",
+      "form": 3
+    }
+  },
+  {
+    "id": 220,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَنْزَلَ",
+    "target_term": "to send down",
+    "details": {
+      "present": "يُنْزِلُ",
+      "verbal_noun": "إِنْزَالٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 221,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "تَوَكَّلَ",
+    "target_term": "to put one's trust , to act as an agent",
+    "details": {
+      "present": "يَتَوَكَّلُ",
+      "verbal_noun": "تَوَكُّلٌ",
+      "form": 5
+    }
+  },
+  {
+    "id": 222,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "اِنْقَلَبَ",
+    "target_term": "to be overturned or reversed",
+    "details": {
+      "present": "يَنْقَلِبُ",
+      "verbal_noun": "اِنْقِلَابٌ",
+      "form": 7
+    }
+  },
+  {
+    "id": 223,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "اِتَّبَعَ",
+    "target_term": "to follow, obey, heed, observe",
+    "details": {
+      "present": "يَتَّبِعُ",
+      "verbal_noun": "اِتِّبَاعٌ",
+      "form": 8
+    }
+  },
+  {
+    "id": 224,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "اِخْتَلَفَ",
+    "target_term": "to vary, differ",
+    "details": {
+      "present": "يَخْتَلِفُ",
+      "verbal_noun": "اِخْتِلَافٌ",
+      "form": 8
+    }
+  },
+  {
+    "id": 225,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "اِسْتَغْفَرَ",
+    "target_term": "to seek forgiveness",
+    "details": {
+      "present": "يَسْتَغْفِرُ",
+      "verbal_noun": "اِسْتِغْفَارٌ",
+      "form": 10
+    }
+  },
+  {
+    "id": 226,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "اِستَكْبَرَ",
+    "target_term": "to be haughty, insolent, proud",
+    "details": {
+      "present": "يَسْتَكْبِرُ",
+      "verbal_noun": "اِسْتِكْبَارٌ",
+      "form": 10
+    }
+  },
+  {
+    "id": 227,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سَاعَةٌ",
+    "target_term": "hour",
+    "details": {
+      "source_plural": "سَاعَاتٌ",
+      "target_plural": "hours"
+    }
+  },
+  {
+    "id": 228,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَبْصَرَ",
+    "target_term": "to observe",
+    "details": {
+      "present": "يُبْصِرُ",
+      "verbal_noun": "إِبْصَارٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 229,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حِكْمَةٌ",
+    "target_term": "wisdom",
+    "details": {
+      "source_plural": "حِكْمَةٌ",
+      "target_plural": "wisdoms"
+    }
+  },
+  {
+    "id": 230,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "زَكَاةٌ",
+    "target_term": "purity, alms",
+    "details": {
+      "source_plural": "زَكَواةٌ",
+      "target_plural": "purities, almses"
+    }
+  },
+  {
+    "id": 231,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "صَلَاةٌ",
+    "target_term": "prayer",
+    "details": {
+      "source_plural": "صَلَوَاتٌ",
+      "target_plural": "prayers"
+    }
+  },
+  {
+    "id": 232,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عَرْشٌ",
+    "target_term": "throne",
+    "details": {
+      "source_plural": "عُرُوشٌ",
+      "target_plural": "thrones"
+    }
+  },
+  {
+    "id": 233,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "فَرِيقٌ",
+    "target_term": "party, company",
+    "details": {
+      "source_plural": "فَرِيقٌ",
+      "target_plural": "parties, companies"
+    }
+  },
+  {
+    "id": 234,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "قَدَمٌ",
+    "target_term": "foot",
+    "details": {
+      "source_plural": "أَقْدَامٌ",
+      "target_plural": "feet"
+    }
+  },
+  {
+    "id": 235,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "كَلامٌ",
+    "target_term": "speech, words, word",
+    "details": {
+      "source_plural": "كَلامٌ",
+      "target_plural": "speeches, wordses, words"
+    }
+  },
+  {
+    "id": 236,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "تَحْتَ",
+    "target_term": "beneath",
+    "details": {
+      "source_plural": "تَحْتَ",
+      "target_plural": "beneaths"
+    }
+  },
+  {
+    "id": 237,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "صَبَرَ",
+    "target_term": "to be patient, to endure",
+    "details": {
+      "present": "يَصْبِرُ",
+      "verbal_noun": "صَبْرٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 238,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "قَسَمَ",
+    "target_term": "to divide",
+    "details": {
+      "present": "يَقْسِمُ",
+      "verbal_noun": "قَسْمٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 239,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "عَقَلَ",
+    "target_term": "to understand",
+    "details": {
+      "present": "يَعْقِلُ",
+      "verbal_noun": "عَقْلٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 241,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "استَعْجَلَ",
+    "target_term": "to seek to hasten",
+    "details": {
+      "present": "يَسْتَعْجِلُ",
+      "verbal_noun": "اِسْتِعْجَالٌ",
+      "form": 10
+    }
+  },
+  {
+    "id": 242,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "كَفَرَ",
+    "target_term": "to cover, hide, be an unbeliever",
+    "details": {
+      "present": "يَكْفُرُ",
+      "verbal_noun": "كُفْرٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 243,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَسْمَعَ",
+    "target_term": "to make hear",
+    "details": {
+      "present": "يُسْمِعُ",
+      "verbal_noun": "إِسْمَاعٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 244,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "تَبَيَّنَ",
+    "target_term": "to become or make clear",
+    "details": {
+      "present": "يَتَبَيَّنُ",
+      "verbal_noun": "تَبَيُّنٌ",
+      "form": 5
+    }
+  },
+  {
+    "id": 245,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَنْفَقَ",
+    "target_term": "to spend",
+    "details": {
+      "present": "يُنْفِقُ",
+      "verbal_noun": "إِنْفَاقٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 246,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "خُسْرَانٌ",
+    "target_term": "loss, ruin",
+    "details": {
+      "source_plural": "خُسْرَانٌ",
+      "target_plural": "losses, ruins"
+    }
+  },
+  {
+    "id": 247,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حُكْمٌ",
+    "target_term": "judgement",
+    "details": {
+      "source_plural": "حُكْمٌ",
+      "target_plural": "judgements"
+    }
+  },
+  {
+    "id": 248,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "ذِكْرَى",
+    "target_term": "remembrance, reminder",
+    "details": {
+      "source_plural": "ذِكْرَى",
+      "target_plural": "remembrances, reminders"
+    }
+  },
+  {
+    "id": 249,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَفَرٌّ",
+    "target_term": "refuge",
+    "details": {
+      "source_plural": "مَفَرٌّ",
+      "target_plural": "refuges"
+    }
+  },
+  {
+    "id": 250,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "قَارِعَةٌ",
+    "target_term": "calamity",
+    "details": {
+      "source_plural": "قَارِعَةٌ",
+      "target_plural": "calamities"
+    }
+  },
+  {
+    "id": 251,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَرَضٌ",
+    "target_term": "illness",
+    "details": {
+      "source_plural": "مَرَضٌ",
+      "target_plural": "illnesses"
+    }
+  },
+  {
+    "id": 252,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "شِمَالٌ",
+    "target_term": "left, left hand",
+    "details": {
+      "source_plural": "شِمَالٌ",
+      "target_plural": "lefts, left hands"
+    }
+  },
+  {
+    "id": 253,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "يَمِينٌ",
+    "target_term": "right, right hand, oath",
+    "details": {
+      "source_plural": "أَيْمانٌ",
+      "target_plural": "rights, right hands, oaths"
+    }
+  },
+  {
+    "id": 254,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "قَلْبٌ",
+    "target_term": "heart",
+    "details": {
+      "source_plural": "قُلُوبٌ",
+      "target_plural": "hearts"
+    }
+  },
+  {
+    "id": 255,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "صُورَةٌ",
+    "target_term": "picture, form",
+    "details": {
+      "source_plural": "صُوَرٌ",
+      "target_plural": "pictures, forms"
+    }
+  },
+  {
+    "id": 256,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سُورَةٌ",
+    "target_term": "chapter, phase",
+    "details": {
+      "source_plural": "سُورَةٌ",
+      "target_plural": "chapters, phases"
+    }
+  },
+  {
+    "id": 257,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَصَمُّ",
+    "target_term": "deaf",
+    "details": {
+      "source_plural": "صَمَّاءُ",
+      "target_plural": "deaves"
+    }
+  },
+  {
+    "id": 258,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "خَالِصٌ",
+    "target_term": "pure",
+    "details": {
+      "source_plural": "خَالِصٌ",
+      "target_plural": "pures"
+    }
+  },
+  {
+    "id": 259,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَاطِلٌ",
+    "target_term": "false, falsehood",
+    "details": {
+      "source_plural": "بَاطِلٌ",
+      "target_plural": "falses, falsehoods"
+    }
+  },
+  {
+    "id": 260,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَعَابَ",
+    "target_term": "to damage",
+    "details": {
+      "present": "يُعِيبُ",
+      "verbal_noun": "إِعَابَةٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 261,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "وَرَاءَ",
+    "target_term": "behind, in the rear of, beyond",
+    "details": {
+      "source_plural": "وَرَاءَ",
+      "target_plural": "behinds, in the rear oves, beyonds"
+    }
+  },
+  {
+    "id": 262,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "غَصَبَ",
+    "target_term": "to take away by force, to rob",
+    "details": {
+      "present": "يَغْصِبُ",
+      "verbal_noun": "غَصْبٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 264,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَكْرَهَ",
+    "target_term": "to compel or force",
+    "details": {
+      "present": "يُكْرِهُ",
+      "verbal_noun": "إِكْرَاهٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 265,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "صَحِيفَةٌ",
+    "target_term": "page, book, printed Quran",
+    "details": {
+      "source_plural": "صُحُفٌ مُصْحَفٌ",
+      "target_plural": "pages, books, printed Qurans"
+    }
+  },
+  {
+    "id": 266,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "بَشَرَ",
+    "target_term": "to peel, scrape off",
+    "details": {
+      "present": "يَبْشُرُ",
+      "verbal_noun": "بَشْرٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 267,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بِشْرٌ",
+    "target_term": "joy",
+    "details": {
+      "source_plural": "بِشْرٌ",
+      "target_plural": "joys"
+    }
+  },
+  {
+    "id": 268,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بُشْرى",
+    "target_term": "glad tidings",
+    "details": {
+      "source_plural": "بُشْرى",
+      "target_plural": "glad tidingses"
+    }
+  },
+  {
+    "id": 269,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَشِيرٌ",
+    "target_term": "Bringer of glad tidings, herald, evangalist",
+    "details": {
+      "source_plural": "بُشَرَاءُ",
+      "target_plural": "Bringer of glad tidingses, heralds, evangalists"
+    }
+  },
+  {
+    "id": 270,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "بَسَمَ",
+    "target_term": "to smile",
+    "details": {
+      "present": "يَبْسِمُ",
+      "verbal_noun": "بَسْمٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 271,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَسْمَةٌ",
+    "target_term": "smile",
+    "details": {
+      "source_plural": "بَسْمَةٌ",
+      "target_plural": "smiles"
+    }
+  },
+  {
+    "id": 272,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَسَامٌ",
+    "target_term": "smiling",
+    "details": {
+      "source_plural": "بَسَامٌ",
+      "target_plural": "smilings"
+    }
+  },
+  {
+    "id": 274,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "عَاذَ",
+    "target_term": "to take refuge",
+    "details": {
+      "present": "يَعُوذُ",
+      "verbal_noun": "عِيَاذٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 276,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "قَعَدَ",
+    "target_term": "to sit, base , stay - base, rule",
+    "details": {
+      "verbal_noun": "قُعُودٌ",
+      "present": "يَقْعُدُ",
+      "form": 1
+    }
+  },
+  {
+    "id": 277,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "رَسُولٌ",
+    "target_term": "apostle, messenger",
+    "details": {
+      "source_plural": "رُسُلٌ",
+      "target_plural": "apostles, messengers"
+    }
+  },
+  {
+    "id": 278,
+    "deck_id": "quran-vocab-001",
+    "word_type": "preposition",
+    "source_term": "فِي",
+    "target_term": "in",
+    "details": null
+  },
+  {
+    "id": 279,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نِظَامٌ",
+    "target_term": "arrangement, system, discipline",
+    "details": {
+      "source_plural": "أَنْظِمَةٌ",
+      "target_plural": "arrangements, systems, disciplines"
+    }
+  },
+  {
+    "id": 280,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "يَسَرَ",
+    "target_term": "to be or become easy",
+    "details": {
+      "present": "يَيْسَرُ",
+      "verbal_noun": "يُسْرٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 281,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "رَمَى",
+    "target_term": "to throw, pelt",
+    "details": {
+      "verbal_noun": "رَمْيٌ",
+      "present": "يَرْمِي",
+      "form": 1
+    }
+  },
+  {
+    "id": 282,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سَابِقَةٌ",
+    "target_term": "priority, precedence",
+    "details": {
+      "source_plural": "سَوَابِقُ",
+      "target_plural": "priorities, precedences"
+    }
+  },
+  {
+    "id": 283,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "مَاتَ",
+    "target_term": "to die",
+    "details": {
+      "present": "يَمُوتُ",
+      "verbal_noun": "مَوْتٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 284,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "سَارَ",
+    "target_term": "to march, walk",
+    "details": {
+      "present": "يَسِيرُ",
+      "verbal_noun": "سَيْرٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 285,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "تُرَابٌ",
+    "target_term": "dust, dirt",
+    "details": {
+      "source_plural": "تُرَابٌ",
+      "target_plural": "dusts, dirts"
+    }
+  },
+  {
+    "id": 286,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَجْنَبِيٌّ",
+    "target_term": "foreign, foreigner",
+    "details": {
+      "source_plural": "أَجَانِبُ",
+      "target_plural": "foreign, foreigners"
+    }
+  },
+  {
+    "id": 287,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "عَرَفَ",
+    "target_term": "to know, get to know, be aquainted with",
+    "details": {
+      "verbal_noun": "مَعْرِفَةٌ",
+      "present": "يَعْرِفُ",
+      "form": 1
+    }
+  },
+  {
+    "id": 288,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "مَعِينٌ",
+    "target_term": "flowing",
+    "details": {
+      "source_plural": "مَعِينٌ",
+      "target_plural": "flowing"
+    }
+  },
+  {
+    "id": 289,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَثٌّ",
+    "target_term": "grief",
+    "details": {
+      "source_plural": "بَثٌّ",
+      "target_plural": "suffering"
+    }
+  },
+  {
+    "id": 290,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَلقَى",
+    "target_term": "to throw, cast our",
+    "details": {
+      "present": "يُلْقِي",
+      "verbal_noun": "إِلْقَاءٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 291,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حَوَائِجُ",
+    "target_term": "necessities, possessions, stuff",
+    "details": {
+      "source_plural": "حَوَائِجُ",
+      "target_plural": "necessitieses, possessionses, stufves"
+    }
+  },
+  {
+    "id": 292,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "صَاخَّةٌ",
+    "target_term": "deafening cry",
+    "details": null
+  },
+  {
+    "id": 293,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عَهْدٌعُهُودٌ",
+    "target_term": "Covenant",
+    "details": {
+      "source_plural": "عَهْدٌعُهُودٌ",
+      "target_plural": "Covenants"
+    }
+  },
+  {
+    "id": 294,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "اِعتَبَرَ",
+    "target_term": "To take a lesson from, be instructed by",
+    "details": {
+      "present": "يَعْتَبِرُ",
+      "verbal_noun": "اِعْتِبَارٌ",
+      "form": 8
+    }
+  },
+  {
+    "id": 295,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "لَبَّسَ",
+    "target_term": "to deceive",
+    "details": {
+      "present": "يُلَبِّسُ",
+      "verbal_noun": "تَلْبِيسٌ",
+      "form": 2
+    }
+  },
+  {
+    "id": 296,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "عَاهَدَ",
+    "target_term": "to make a contract, covenant",
+    "details": {
+      "present": "يُعَاهِدُ",
+      "verbal_noun": "مُعَاهَدَةٌ",
+      "form": 3
+    }
+  },
+  {
+    "id": 297,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "كُفُوء",
+    "target_term": "equivalent",
+    "details": {
+      "source_plural": "كُفُوء",
+      "target_plural": "equivalents"
+    }
+  },
+  {
+    "id": 298,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "قَرَى",
+    "target_term": "to entertain, receive hospitably",
+    "details": {
+      "verbal_noun": "قِرًى",
+      "present": "يَقْرِي",
+      "form": 1
+    }
+  },
+  {
+    "id": 300,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "فَتَنَ",
+    "target_term": "to tempt, torture, torment",
+    "details": {
+      "present": "يَفْتِنُ",
+      "verbal_noun": "فِتْنَةٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 301,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نَبَأٌ",
+    "target_term": "news",
+    "details": {
+      "source_plural": "نَبَأٌ",
+      "target_plural": "newses"
+    }
+  },
+  {
+    "id": 302,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "عَوِجَ",
+    "target_term": "to be crooked, bent",
+    "details": {
+      "present": "يَعْوَجُ",
+      "verbal_noun": "عِوَجٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 303,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "اقْتَصَرَ",
+    "target_term": "to limit, restrict, confine",
+    "details": {
+      "present": "يَقْتَصِرُ",
+      "verbal_noun": "اِقْتِصَارٌ",
+      "form": 8
+    }
+  },
+  {
+    "id": 304,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "بَرِحَ",
+    "target_term": "to cease, stop",
+    "details": {
+      "present": "يَبْرَحُ",
+      "verbal_noun": "بَرَاحٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 305,
+    "deck_id": "quran-vocab-001",
+    "word_type": "particle",
+    "source_term": "إِمَّا",
+    "target_term": "either...or...",
+    "details": null
+  },
+  {
+    "id": 306,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "جَازَ",
+    "target_term": "to be permitted, to pass",
+    "details": {
+      "present": "يَجُوزُ",
+      "verbal_noun": "جَوَازٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 307,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "مُجَوَّدٌ",
+    "target_term": "slow, melodic Quran recitation",
+    "details": {
+      "source_plural": "مُجَوَّدٌ",
+      "target_plural": "slow, melodic Quran recitation"
+    }
+  },
+  {
+    "id": 308,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "رَتَّلَ",
+    "target_term": "to recite carefully and precisely",
+    "details": {
+      "present": "يُرَتِّلُ",
+      "verbal_noun": "تَرْتِيلٌ",
+      "form": 2
+    }
+  },
+  {
+    "id": 309,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "تَرتِيلٌ",
+    "target_term": "Chanting manner of recitation",
+    "details": {
+      "source_plural": "تَرتِيلٌ",
+      "target_plural": "Chanting manner of recitations"
+    }
+  },
+  {
+    "id": 310,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَخْفَرَ",
+    "target_term": "to betray, break trust or covenant",
+    "details": {
+      "present": "يُخْفِرُ",
+      "verbal_noun": "إِخْفَارٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 312,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مُرْسَلٌ",
+    "target_term": "apostle, missionary, sent, delegated",
+    "details": {
+      "source_plural": "مُرْسَلٌ",
+      "target_plural": "apostles, missionaries, sents, delegateds"
+    }
+  },
+  {
+    "id": 313,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عُنُقٌ",
+    "target_term": "neck",
+    "details": {
+      "source_plural": "أَعْناقٌ",
+      "target_plural": "necks"
+    }
+  },
+  {
+    "id": 314,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "غُلٌّ",
+    "target_term": "iron collar, handcuff, shackle, burning thirst",
+    "details": {
+      "source_plural": "أَغْلَالٌ",
+      "target_plural": "iron collars, handcufves, shackles, burning thirsts"
+    }
+  },
+  {
+    "id": 315,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "ذَقْنٌ",
+    "target_term": "chin",
+    "details": {
+      "source_plural": "أَذْقَانٌ",
+      "target_plural": "chins"
+    }
+  },
+  {
+    "id": 317,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "إِمَامٌ",
+    "target_term": "spiritual leader, register, standard",
+    "details": {
+      "source_plural": "أَئِمَّةٌ",
+      "target_plural": "spiritual leaders, registers, standards"
+    }
+  },
+  {
+    "id": 318,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "عَزَّزَ",
+    "target_term": "to strengthen",
+    "details": {
+      "present": "يُعَزِّزُ",
+      "verbal_noun": "تَعْزِيزٌ",
+      "form": 2
+    }
+  },
+  {
+    "id": 319,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نَاسٌ",
+    "target_term": "men, people, mankind",
+    "details": {
+      "source_plural": "نَاسٌ",
+      "target_plural": "mens, peoples, mankinds"
+    }
+  },
+  {
+    "id": 320,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَلَاغٌ",
+    "target_term": "conveyance, message",
+    "details": {
+      "source_plural": "بَلَاغٌ",
+      "target_plural": "conveyances, messages"
+    }
+  },
+  {
+    "id": 322,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "رَجَمَ",
+    "target_term": "to stone, abuse, reject, curse to guess",
+    "details": {
+      "present": "يَرْجُمُ",
+      "verbal_noun": "رَجْمٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 324,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "صَعِيدٌ",
+    "target_term": "soil, earth",
+    "details": {
+      "source_plural": "صُعُدٌ",
+      "target_plural": "soils, earths"
+    }
+  },
+  {
+    "id": 325,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَسرَفَ",
+    "target_term": "to exceed all bounds",
+    "details": {
+      "present": "يُسْرِفُ",
+      "verbal_noun": "إِسْرَافٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 327,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَقْصَى",
+    "target_term": "distant place, fem",
+    "details": {
+      "source_plural": "قُصوَى",
+      "target_plural": "distant places, fems"
+    }
+  },
+  {
+    "id": 329,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "كَيِّدٌ",
+    "target_term": "artful plot, trick, deceit",
+    "details": {
+      "source_plural": "كِيَادٌ",
+      "target_plural": "artful plots, tricks, deceits"
+    }
+  },
+  {
+    "id": 330,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "اِنْطَلَقَ",
+    "target_term": "to proceed on one's way, set out",
+    "details": {
+      "present": "يَنْطَلِقُ",
+      "verbal_noun": "اِنْطِلَاقٌ",
+      "form": 7
+    }
+  },
+  {
+    "id": 332,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "رُوحٌ",
+    "target_term": "soul",
+    "details": {
+      "source_plural": "أَروَاحٌ",
+      "target_plural": "souls"
+    }
+  },
+  {
+    "id": 333,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "تَوَاصَى",
+    "target_term": "To advise one another",
+    "details": {
+      "present": "يَتَوَاصَى",
+      "verbal_noun": "تَوَاصٍ",
+      "form": 6
+    }
+  },
+  {
+    "id": 334,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "سَفَلَ",
+    "target_term": "to be low or below",
+    "details": {
+      "verbal_noun": "سُفُولٌ",
+      "present": "يَسْفُلُ",
+      "form": 1
+    }
+  },
+  {
+    "id": 335,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "ذَلَّ",
+    "target_term": "To be low, humble, despised",
+    "details": {
+      "verbal_noun": "ذُلٌّ",
+      "present": "يَذِلُّ",
+      "form": 1
+    }
+  },
+  {
+    "id": 336,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "وَلَجَ",
+    "target_term": "To enter, penetrate",
+    "details": {
+      "present": "يَلِجُ",
+      "verbal_noun": "وُلُوجٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 337,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "إِصْبَعٌ",
+    "target_term": "finger",
+    "details": {
+      "source_plural": "أَصَابِعٌ",
+      "target_plural": "fingers"
+    }
+  },
+  {
+    "id": 338,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "إِصْبَعٌ",
+    "target_term": "finger, toe",
+    "details": {
+      "source_plural": "أَصَابِعُ",
+      "target_plural": "fingers, toes"
+    }
+  },
+  {
+    "id": 339,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "صَبَعَ",
+    "target_term": "to point with the finger",
+    "details": {
+      "present": "يَصْبَعُ",
+      "verbal_noun": "صَبْعٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 340,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سَرَابٌ",
+    "target_term": "mirage, phantom",
+    "details": {
+      "source_plural": "سَرَابٌ",
+      "target_plural": "mirages, phantoms"
+    }
+  },
+  {
+    "id": 341,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "ثَارَ",
+    "target_term": "to stir, be excited, aroused",
+    "details": {
+      "present": "يَثُورُ",
+      "verbal_noun": "ثَوْرَةٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 342,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "مَجَدَ",
+    "target_term": "To be glorious",
+    "details": {
+      "verbal_noun": "مَجْدٌ",
+      "present": "يَمْجُدُ",
+      "form": 1
+    }
+  },
+  {
+    "id": 343,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَمْجَدَ",
+    "target_term": "To glorify",
+    "details": {
+      "present": "يُمْجِدُ",
+      "verbal_noun": "إِمْجَادٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 344,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "نَصَبَ",
+    "target_term": "to set up, erect, labour hard wear out",
+    "details": {
+      "present": "يَنْصِبُ",
+      "verbal_noun": "نَصْبٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 345,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نِصَابٌ",
+    "target_term": "origin, beginning, minimum amount of property liable for zakah",
+    "details": {
+      "source_plural": "نُصُوبٌ",
+      "target_plural": "origins, beginnings, minimum amount of property liable for zakahs"
+    }
+  },
+  {
+    "id": 346,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "تَسْهِيلٌ",
+    "target_term": "Easement, facilitation",
+    "details": {
+      "source_plural": "تَسْهِيلٌ",
+      "target_plural": "Easements, facilitations"
+    }
+  },
+  {
+    "id": 347,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "وَكِيلٌ",
+    "target_term": "representative, lawyer",
+    "details": {
+      "source_plural": "وُكَلَاءُ",
+      "target_plural": "representatives, lawyers"
+    }
+  },
+  {
+    "id": 348,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "شَقِيَ",
+    "target_term": "To make someone unhappy, miserable",
+    "details": {
+      "present": "يَشْقَى",
+      "verbal_noun": "شَقَاءٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 349,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَوْحَى",
+    "target_term": "To inspire",
+    "details": {
+      "present": "يُوحِي",
+      "verbal_noun": "إِيحَاءٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 350,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نِعْمَةٌ",
+    "target_term": "grace, favour, blessing",
+    "details": {
+      "source_plural": "نِعَمٌ",
+      "target_plural": "graces, favours, blessings"
+    }
+  },
+  {
+    "id": 351,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "وَرِثَ",
+    "target_term": "To inherit",
+    "details": {
+      "verbal_noun": "إِرْثٌ",
+      "present": "يَرِثُ",
+      "form": 1
+    }
+  },
+  {
+    "id": 352,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "تَرَاوِيح",
+    "target_term": "Taraweeh prayers",
+    "details": null
+  },
+  {
+    "id": 353,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "غِشَاوَةٌ",
+    "target_term": "veil, covering",
+    "details": {
+      "source_plural": "غِشَاوَةٌ",
+      "target_plural": "veils, coverings"
+    }
+  },
+  {
+    "id": 354,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مُصْلِحٌ",
+    "target_term": "peacemaker, reformer",
+    "details": {
+      "source_plural": "مُصْلِحٌ",
+      "target_plural": "peacemakers, reformers"
+    }
+  },
+  {
+    "id": 355,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "قَصَدَ",
+    "target_term": "to aspire, intend, go straight",
+    "details": {
+      "present": "يَقْصِدُ",
+      "verbal_noun": "قَصْدٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 356,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سَفِيهٌ",
+    "target_term": "fool",
+    "details": {
+      "source_plural": "سُفَهَاءُ",
+      "target_plural": "fools"
+    }
+  },
+  {
+    "id": 357,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَصِيرٌ",
+    "target_term": "Destination, progress, destiny, future",
+    "details": {
+      "source_plural": "مَصِيرٌ",
+      "target_plural": "Destinations, progresses, destinies, futures"
+    }
+  },
+  {
+    "id": 358,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "رَعْدٌ",
+    "target_term": "thunder",
+    "details": {
+      "source_plural": "رُعُودٌ",
+      "target_plural": "thunders"
+    }
+  },
+  {
+    "id": 359,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "المُحِيطُ",
+    "target_term": "encompasses",
+    "details": {
+      "source_plural": "المُحِيطُ",
+      "target_plural": "encompasseses"
+    }
+  },
+  {
+    "id": 361,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عُرْوَةٌ",
+    "target_term": "tie, bond, support",
+    "details": {
+      "source_plural": "عُرًى",
+      "target_plural": "ties, bonds, supports"
+    }
+  },
+  {
+    "id": 363,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "بَأْسٌ",
+    "target_term": "punishment",
+    "details": {
+      "source_plural": "بَأْسٌ",
+      "target_plural": "punishments"
+    }
+  },
+  {
+    "id": 364,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "رَقِيمٌ",
+    "target_term": "inscription",
+    "details": {
+      "source_plural": "رَقَائِمٌ",
+      "target_plural": "inscriptions"
+    }
+  },
+  {
+    "id": 365,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أُذُنٌ",
+    "target_term": "ear",
+    "details": {
+      "source_plural": "آذَانٌ",
+      "target_plural": "ears"
+    }
+  },
+  {
+    "id": 366,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سِنَةٌ",
+    "target_term": "Slumber",
+    "details": {
+      "source_plural": "سِنَةٌ",
+      "target_plural": "Slumbers"
+    }
+  },
+  {
+    "id": 367,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "وَدَعَ",
+    "target_term": "To give up, cease, in surah Duhaa)",
+    "details": {
+      "present": "يَدَعُ",
+      "verbal_noun": "وَدْعٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 368,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "وَضَعَ",
+    "target_term": "to put, unburden , place, impose",
+    "details": {
+      "present": "يَضَعُ",
+      "verbal_noun": "وَضْعٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 369,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "وِزْرٌ",
+    "target_term": "burden, sin",
+    "details": {
+      "source_plural": "أَوْزَارٌ",
+      "target_plural": "burdens, sins"
+    }
+  },
+  {
+    "id": 370,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "فَلَّكَ",
+    "target_term": "to have round breasts",
+    "details": {
+      "present": "يُفَلِّكُ",
+      "verbal_noun": "تَفْلِيكٌ",
+      "form": 2
+    }
+  },
+  {
+    "id": 371,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "وَالِدٌ",
+    "target_term": "Father, mother, parents",
+    "details": {
+      "source_plural": "وَالِدَةٌ",
+      "target_plural": "Fathers, mothers, parentses"
+    }
+  },
+  {
+    "id": 372,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حَطَبٌأَحْطَابٌ",
+    "target_term": "Firewood",
+    "details": {
+      "source_plural": "حَطَبٌأَحْطَابٌ",
+      "target_plural": "Firewoods"
+    }
+  },
+  {
+    "id": 373,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عَصْفٌ",
+    "target_term": "straw",
+    "details": {
+      "source_plural": "عَصْفٌ",
+      "target_plural": "straws"
+    }
+  },
+  {
+    "id": 374,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَأكُولٌ",
+    "target_term": "edible, eaten up",
+    "details": {
+      "source_plural": "مَأكُولٌ",
+      "target_plural": "edibles, eaten ups"
+    }
+  },
+  {
+    "id": 375,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَقْبَرٌ",
+    "target_term": "tomb, graveyard",
+    "details": {
+      "source_plural": "مَقَابِرٌ",
+      "target_plural": "tombs, graveyards"
+    }
+  },
+  {
+    "id": 378,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "عَرُضَ",
+    "target_term": "to be wide, to appear; - to turn away; - to expose",
+    "details": {
+      "present": "يَعْرُضُ",
+      "verbal_noun": "عَرْضٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 380,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "هَمَّ",
+    "target_term": "to worry, be anxious = anxiety)",
+    "details": {
+      "verbal_noun": "هَمٌّ",
+      "present": "يَهُمُّ",
+      "form": 1
+    }
+  },
+  {
+    "id": 381,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "اِنْبَعَثَ",
+    "target_term": "to be sent forth",
+    "details": {
+      "present": "يَنْبَعِثُ",
+      "verbal_noun": "اِنْبِعَاثٌ",
+      "form": 7
+    }
+  },
+  {
+    "id": 382,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "وَكَّدَ",
+    "target_term": "to fasten, confirm, assert",
+    "details": {
+      "verbal_noun": "تَوْكِيدٌ",
+      "present": "يُوَكِّدُ",
+      "form": 2
+    }
+  },
+  {
+    "id": 384,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "نَقَمَ",
+    "target_term": "to resent, take revenge",
+    "details": {
+      "present": "يَنْقِمُ",
+      "verbal_noun": "نَقْمَةٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 386,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "تَخَلَّا",
+    "target_term": "to give up, become empty",
+    "details": {
+      "present": "يَتَخَلَّى",
+      "verbal_noun": "تَخَلٍّ",
+      "form": 5
+    }
+  },
+  {
+    "id": 387,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مَمْنُونٌ",
+    "target_term": "ending",
+    "details": {
+      "source_plural": "مَمْنُونٌ",
+      "target_plural": "endings"
+    }
+  },
+  {
+    "id": 388,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "أَعْلَمُ",
+    "target_term": "most knowing",
+    "details": null
+  },
+  {
+    "id": 390,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "قَسْمٌ",
+    "target_term": "oath",
+    "details": {
+      "source_plural": "أَقْسَامٌ قَسْما ب",
+      "target_plural": "oaths"
+    }
+  },
+  {
+    "id": 391,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "نَبَتَ",
+    "target_term": "to grow",
+    "details": {
+      "present": "يَنْبُتُ",
+      "verbal_noun": "نَبْتٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 392,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "عِنَبٌ",
+    "target_term": "grape",
+    "details": {
+      "source_plural": "أَعْنَابٌ",
+      "target_plural": "grapes"
+    }
+  },
+  {
+    "id": 393,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "سَبَحَ",
+    "target_term": "to swim, glide : to praise God",
+    "details": {
+      "present": "يَسْبَحُ",
+      "verbal_noun": "سِبَاحَةٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 394,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "نَخِرَ",
+    "target_term": "to decay, ruin",
+    "details": {
+      "present": "يَنْخَرُ",
+      "verbal_noun": "نَخْرٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 396,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "صَوَابٌ",
+    "target_term": "correct, right, proper",
+    "details": {
+      "source_plural": "صَوَابٌ",
+      "target_plural": "corrects, rights, propers"
+    }
+  },
+  {
+    "id": 397,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَقْمَحَ",
+    "target_term": "to be proud, hold one's head high",
+    "details": {
+      "present": "يُقْمِحُ",
+      "verbal_noun": "إِقْمَاحٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 398,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "نَزْلٌ",
+    "target_term": "accommodation, lodging",
+    "details": {
+      "source_plural": "نُزُولٌ",
+      "target_plural": "accommodations, lodgings"
+    }
+  },
+  {
+    "id": 399,
+    "deck_id": "quran-vocab-001",
+    "word_type": "adjective",
+    "source_term": "بِئْسَ",
+    "target_term": "wretched, evil",
+    "details": null
+  },
+  {
+    "id": 400,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "اِسْتَبْرَقٌ",
+    "target_term": "brocade",
+    "details": {
+      "source_plural": "اِسْتَبْرَقٌ",
+      "target_plural": "brocades"
+    }
+  },
+  {
+    "id": 402,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "مِدَادٌ",
+    "target_term": "Ink",
+    "details": {
+      "source_plural": "مِدَادٌ",
+      "target_plural": "Inks"
+    }
+  },
+  {
+    "id": 403,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "اِمْرٌ",
+    "target_term": "grave, serious",
+    "details": {
+      "source_plural": "اِمْرٌ",
+      "target_plural": "graves, seriouses"
+    }
+  },
+  {
+    "id": 404,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "بَدَلَ",
+    "target_term": "to replace, substitute",
+    "details": {
+      "present": "يَبْدُلُ",
+      "verbal_noun": "بَدَلٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 405,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "سَبَّ",
+    "target_term": "to insult",
+    "details": {
+      "present": "يَسُبُّ",
+      "verbal_noun": "سَبٌّ",
+      "form": 1
+    }
+  },
+  {
+    "id": 407,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَرِبَ",
+    "target_term": "to be skilful, proficient",
+    "details": {
+      "present": "يَأْرَبُ",
+      "verbal_noun": "أَرَبٌ",
+      "form": 1
+    }
+  },
+  {
+    "id": 408,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "يَمٌّ",
+    "target_term": "open sea, river",
+    "details": {
+      "source_plural": "يُمُومٌ",
+      "target_plural": "open seas, rivers"
+    }
+  },
+  {
+    "id": 409,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "أَخْلَفَ",
+    "target_term": "fail to keep -",
+    "details": {
+      "source_plural": "أَخْلَفَ",
+      "target_plural": "fail to keep -s"
+    }
+  },
+  {
+    "id": 410,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سُلَالَةٌ",
+    "target_term": "extract, essence",
+    "details": null
+  },
+  {
+    "id": 411,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حَيْثُ",
+    "target_term": "Where",
+    "details": {
+      "source_plural": "حَيْثُ",
+      "target_plural": "Wheres"
+    }
+  },
+  {
+    "id": 412,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "حَنْجَرَةٌ",
+    "target_term": "Throat",
+    "details": {
+      "source_plural": "حَنْجَرَةٌ",
+      "target_plural": "Throats"
+    }
+  },
+  {
+    "id": 413,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "قَنَتَ",
+    "target_term": "to be obedient, devout, submissive",
+    "details": {
+      "verbal_noun": "قُنُوتٌ",
+      "present": "يَقْنُتُ",
+      "form": 1
+    }
+  },
+  {
+    "id": 414,
+    "deck_id": "quran-vocab-001",
+    "word_type": "verb",
+    "source_term": "أَمْسَكَ",
+    "target_term": "to withold, refrain, resist in Mulk",
+    "details": {
+      "present": "يُمْسِكُ",
+      "verbal_noun": "إِمْسَاكٌ",
+      "form": 4
+    }
+  },
+  {
+    "id": 415,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "فَطْرٌ",
+    "target_term": "crack, flaw",
+    "details": {
+      "source_plural": "فُطُورٌ",
+      "target_plural": "cracks, flaws"
+    }
+  },
+  {
+    "id": 416,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "سَبِيلٌ",
+    "target_term": "way, path",
+    "details": {
+      "source_plural": "سُبُلٌ",
+      "target_plural": "ways, paths"
+    }
+  },
+  {
+    "id": 417,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "قَدَمٌ",
+    "target_term": "foot",
+    "details": {
+      "source_plural": "أَقْدَامٌ",
+      "target_plural": "feet"
+    }
+  },
+  {
+    "id": 418,
+    "deck_id": "quran-vocab-001",
+    "word_type": "noun",
+    "source_term": "صَلَاةٌ",
+    "target_term": "prayer",
+    "details": {
+      "source_plural": "صَلَوَاتٌ",
+      "target_plural": "prayers"
+    }
+  }
+]
