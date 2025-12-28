@@ -10,6 +10,7 @@ import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Input } from '@/components/ui/input';
 import { Word, Deck } from '@/types';
+import { ClickableSentence } from './ClickableWord';
 
 interface QuizClientProps { deck: Deck; words: Word[]; userId: string; }
 type Direction = 'source_to_target' | 'target_to_source';
@@ -380,14 +381,25 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
             </div>
           </div>
           
-          {/* Sentence to translate */}
+          {/* Sentence to translate - words are clickable to save */}
           <div className="bg-stone-800/50 rounded-xl p-4 border border-stone-700">
-            <p className="text-stone-500 text-xs mb-2 uppercase tracking-wide">Translate this sentence:</p>
+            <p className="text-stone-500 text-xs mb-2 uppercase tracking-wide">
+              Translate this sentence: <span className="text-stone-600 hidden sm:inline">(click word to save)</span>
+              <span className="text-stone-600 sm:hidden">(long-press word to save)</span>
+            </p>
             <CardTitle
               className={`text-2xl sm:text-3xl leading-relaxed ${isRtl ? 'font-arabic' : ''}`}
               dir={isRtl ? 'rtl' : 'ltr'}
             >
-              <span className="text-amber-50">{currentQuestion.sentence}</span>
+              <span className="text-amber-50">
+                <ClickableSentence
+                  sentence={currentQuestion.sentence}
+                  deckId={deck.id}
+                  sourceLanguage={deck.source_language}
+                  targetLanguage={deck.target_language}
+                  isRtl={isRtl}
+                />
+              </span>
             </CardTitle>
           </div>
           
