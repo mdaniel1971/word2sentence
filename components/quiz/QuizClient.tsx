@@ -101,8 +101,8 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
         correct_answers: 0,
       }).select().single();
       
-      if (!error && session) setSessionId(session.id);
-      setStarted(true);
+    if (!error && session) setSessionId(session.id);
+    setStarted(true);
     } catch (error) {
       console.error('Error starting quiz:', error);
       alert('Failed to generate quiz. Please check your API key and try again.');
@@ -159,7 +159,7 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
     } catch (error) {
       console.error('Error grading answer:', error);
       // Fallback to simple comparison
-      const normalize = (s: string) => s.toLowerCase().trim();
+    const normalize = (s: string) => s.toLowerCase().trim();
       const isCorrect = normalize(typedAnswer) === normalize(currentQuestion.translation);
       setGradeResult({
         isCorrect,
@@ -442,7 +442,7 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
                 <p className="text-stone-300 text-base">{gradeResult.feedback}</p>
                 {gradeResult.suggestedCorrection && (
                   <p className="text-stone-400 text-base">
-                    expected: <span className={`text-amber-300 font-medium ${isRtl ? "font-arabic text-xl" : ""}`}>{gradeResult.suggestedCorrection}</span>
+                    expected: <span className={`text-amber-300 font-medium ${isRtl ? 'font-arabic text-xl' : ''}`}>{gradeResult.suggestedCorrection}</span>
                   </p>
                 )}
               </div>
@@ -467,7 +467,7 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
                 )}
               </Button>
             )}
-          </form>
+            </form>
           
           {showResult && (
             <Button
