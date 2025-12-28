@@ -50,28 +50,28 @@ export async function POST(request: NextRequest) {
     // Build the word list for the prompt
     const wordList = selectedWords.map((w, i) => {
       const term = direction === 'source_to_target' ? w.source_term : w.target_term;
-      return \`\${i + 1}. "\${term}" (\${w.word_type})\`;
+      return `${i + 1}. "${term}" (${w.word_type})`;
     }).join('\n');
 
     // Check if Arabic to add tashkeel instruction
     const isArabic = sentenceLanguage.toLowerCase().includes('arabic');
     const tashkeelInstruction = isArabic 
-      ? \`\\n- CRITICAL: Include FULL tashkeel (harakat/diacritics) on ALL Arabic words in the sentence - every letter should have its appropriate vowel mark (fatha, damma, kasra, sukun, shadda, tanween, etc.). This is essential for learners.\`
+      ? `\n- CRITICAL: Include FULL tashkeel (harakat/diacritics) on ALL Arabic words in the sentence - every letter should have its appropriate vowel mark (fatha, damma, kasra, sukun, shadda, tanween, etc.). This is essential for learners.`
       : '';
 
-    const prompt = \`Create \${selectedWords.length} simple, beginner-friendly sentences using the following \${sentenceLanguage} words. Each sentence should be short (5-10 words) and use the word in a clear context.
+    const prompt = `Create ${selectedWords.length} simple, beginner-friendly sentences using the following ${sentenceLanguage} words. Each sentence should be short (5-10 words) and use the word in a clear context.
 
 Words:
-\${wordList}
+${wordList}
 
-For each sentence, also provide the accurate translation in \${translationLanguage}.
+For each sentence, also provide the accurate translation in ${translationLanguage}.
 
 IMPORTANT: Return your response as a valid JSON array with exactly this format, and nothing else:
 [
   {
     "wordIndex": 0,
-    "sentence": "The sentence in \${sentenceLanguage}",
-    "translation": "The translation in \${translationLanguage}"
+    "sentence": "The sentence in ${sentenceLanguage}",
+    "translation": "The translation in ${translationLanguage}"
   }
 ]
 
@@ -79,8 +79,8 @@ Rules:
 - Use simple, everyday vocabulary beyond the target word
 - Keep sentences clear and grammatically correct
 - Make sentences natural and useful for language learners
-- The translation should be natural, not word-for-word literal\${tashkeelInstruction}
-- Return ONLY the JSON array, no other text\`;
+- The translation should be natural, not word-for-word literal${tashkeelInstruction}
+- Return ONLY the JSON array, no other text`;
 
     const message = await anthropic.messages.create({
       model: 'claude-sonnet-4-20250514',

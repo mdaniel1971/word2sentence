@@ -373,7 +373,7 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
           <div className="mb-6">
             <p className="text-stone-500 text-sm mb-2">Word being tested:</p>
             <div 
-              className={`text-4xl sm:text-5xl font-bold text-amber-400 ${isRtl ? 'font-arabic' : ''}`}
+              className={`text-2xl sm:text-3xl font-bold text-amber-400 ${isRtl ? 'font-arabic' : ''}`}
               dir={isRtl ? 'rtl' : 'ltr'}
             >
               {currentQuestion.originalWord}
@@ -384,7 +384,7 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
           <div className="bg-stone-800/50 rounded-xl p-4 border border-stone-700">
             <p className="text-stone-500 text-xs mb-2 uppercase tracking-wide">Translate this sentence:</p>
             <CardTitle
-              className={`text-xl sm:text-2xl leading-relaxed ${isRtl ? 'font-arabic' : ''}`}
+              className={`text-2xl sm:text-3xl leading-relaxed ${isRtl ? 'font-arabic' : ''}`}
               dir={isRtl ? 'rtl' : 'ltr'}
             >
               <span className="text-amber-50">{currentQuestion.sentence}</span>

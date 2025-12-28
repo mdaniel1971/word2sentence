@@ -1,0 +1,128 @@
+import { NextRequest, NextResponse } from 'next/server';
+import Anthropic from '@anthropic-ai/sdk';
+import { createClient } from '@/lib/supabase/server';
+
+function getAnthropicClient() {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) {
+    throw new Error('ANTHROPIC_API_KEY environment variable is not set');
+  }
+  return new Anthropic({ apiKey });
+}
+
+export async function POST(request: NextRequest) {
+  try {
+    const supabase = await createClient();
+    const { data: { user } } = await supabase.auth.getUser();
+    
+    if (!user) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
+    const body = await request.json();
+    const { word, deckId, sourceLanguage, targetLanguage } = body as {
+      word: string;
+      deckId: string;
+      sourceLanguage: string;
+      targetLanguage: string;
+    };
+
+    if (!word || !deckId || !sourceLanguage || !targetLanguage) {
+      return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
+    }
+
+    // Use LLM to extract the root/base form and get word info
+    const anthropic = getAnthropicClient();
+    
+    const analysisPrompt = `Analyze this ${sourceLanguage} word: "${word}"
+
+Extract the following information and return as JSON:
+1. root_form: The dictionary/root form of the word (remove prefixes like لِ، بِ، وَ، فَ، الـ and suffixes, get the base word with full tashkeel)
+2. word_type: One of "noun", "verb", "adjective", "particle", "preposition", "adverb"
+3. translation: The ${targetLanguage} translation of the root form
+4. details: An object with relevant grammatical info:
+   - For nouns/adjectives: include "source_plural" (Arabic plural with tashkeel) and "target_plural" (English plural)
+   - For verbs: include "present" (present tense form with tashkeel), "verbal_noun" (masdar with tashkeel), "form" (Arabic verb form number 1-10)
+
+Return ONLY valid JSON, no other text:
+{
+  "root_form": "...",
+  "word_type": "...",
+  "translation": "...",
+  "details": {...}
+}`;
+
+    const message = await anthropic.messages.create({
+      model: 'claude-sonnet-4-20250514',
+      max_tokens: 512,
+      messages: [{ role: 'user', content: analysisPrompt }]
+    });
+
+    const responseText = message.content
+      .filter((block): block is Anthropic.TextBlock => block.type === 'text')
+      .map(block => block.text)
+      .join('');
+
+    let wordInfo: {
+      root_form: string;
+      word_type: string;
+      translation: string;
+      details: Record<string, unknown>;
+    };
+
+    try {
+      const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+      if (jsonMatch) {
+        wordInfo = JSON.parse(jsonMatch[0]);
+      } else {
+        throw new Error('No JSON found in response');
+      }
+    } catch {
+      console.error('Failed to parse word analysis:', responseText);
+      return NextResponse.json({ error: 'Failed to analyze word' }, { status: 500 });
+    }
+
+    // Check if word already exists in this deck
+    const { data: existingWord } = await supabase
+      .from('words')
+      .select('id, source_term')
+      .eq('deck_id', deckId)
+      .eq('source_term', wordInfo.root_form)
+      .single();
+
+    if (existingWord) {
+      return NextResponse.json({ 
+        exists: true, 
+        message: `"${wordInfo.root_form}" already exists in your deck`,
+        word: existingWord
+      });
+    }
+
+    // Insert the new word
+    const { data: newWord, error: insertError } = await supabase
+      .from('words')
+      .insert({
+        deck_id: deckId,
+        word_type: wordInfo.word_type,
+        source_term: wordInfo.root_form,
+        target_term: wordInfo.translation,
+        details: wordInfo.details,
+      })
+      .select()
+      .single();
+
+    if (insertError) {
+      console.error('Failed to insert word:', insertError);
+      return NextResponse.json({ error: 'Failed to save word' }, { status: 500 });
+    }
+
+    return NextResponse.json({ 
+      success: true, 
+      message: `Added "${wordInfo.root_form}" (${wordInfo.translation}) to your deck`,
+      word: newWord
+    });
+  } catch (error) {
+    console.error('Error saving word:', error);
+    return NextResponse.json({ error: 'Failed to save word' }, { status: 500 });
+  }
+}
