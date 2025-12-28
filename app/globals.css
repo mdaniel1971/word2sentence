@@ -122,7 +122,14 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
   }
+}
+
+/* Default sans font is Arial */
+.font-sans {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Arabic font class */

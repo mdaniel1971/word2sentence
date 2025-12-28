@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
-import { Amiri, Space_Grotesk } from "next/font/google";
+import { Amiri } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
-
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-sans",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
 
 const amiri = Amiri({
   variable: "--font-arabic",
@@ -28,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${spaceGrotesk.variable} ${amiri.variable} font-sans antialiased`}
+        className={`${amiri.variable} font-sans antialiased`}
       >
         {children}
         <Toaster />
