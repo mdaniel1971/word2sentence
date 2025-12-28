@@ -372,7 +372,7 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
         <CardHeader className="text-center pb-4">
           {/* Target word displayed prominently */}
           <div className="mb-6">
-            <p className="text-stone-500 text-sm mb-2">Word being tested:</p>
+            <p className="text-stone-500 text-base mb-2">word being tested:</p>
             <div 
               className={`text-2xl sm:text-3xl font-bold text-amber-400 ${isRtl ? 'font-arabic' : ''}`}
               dir={isRtl ? 'rtl' : 'ltr'}
@@ -383,8 +383,8 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
           
           {/* Sentence to translate - words are clickable to save */}
           <div className="bg-stone-800/50 rounded-xl p-4 border border-stone-700">
-            <p className="text-stone-500 text-xs mb-2 uppercase tracking-wide">
-              Translate this sentence: <span className="text-stone-600 hidden sm:inline">(click word to save)</span>
+            <p className="text-stone-500 text-base mb-2">
+              translate this sentence: <span className="text-stone-600 hidden sm:inline">(click word to save)</span>
               <span className="text-stone-600 sm:hidden">(long-press word to save)</span>
             </p>
             <CardTitle
@@ -404,8 +404,8 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
             </CardTitle>
           </div>
           
-          <p className="text-stone-500 mt-4">
-            Translate to {direction === 'source_to_target' ? deck.target_language : deck.source_language}
+          <p className="text-stone-500 text-base mt-4">
+            translate to {direction === 'source_to_target' ? deck.target_language : deck.source_language}
           </p>
         </CardHeader>
         
@@ -430,8 +430,8 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
                   : 'bg-amber-600/20 border border-amber-500/50'
               }`}>
                 <div className="flex items-center justify-between">
-                  <p className={gradeResult.isCorrect ? 'text-emerald-400 font-semibold' : 'text-amber-400 font-semibold'}>
-                    {gradeResult.isCorrect ? '✓ Correct!' : 'Almost there!'}
+                  <p className={`text-base ${gradeResult.isCorrect ? 'text-emerald-400 font-semibold' : 'text-amber-400 font-semibold'}`}>
+                    {gradeResult.isCorrect ? '✓ correct!' : 'almost there!'}
                   </p>
                   <Badge className={`${
                     gradeResult.score >= 80 ? 'bg-emerald-600' : gradeResult.score >= 50 ? 'bg-amber-600' : 'bg-red-600'
@@ -439,10 +439,10 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
                     {gradeResult.score}%
                   </Badge>
                 </div>
-                <p className="text-stone-300 text-sm">{gradeResult.feedback}</p>
+                <p className="text-stone-300 text-base">{gradeResult.feedback}</p>
                 {gradeResult.suggestedCorrection && (
-                  <p className="text-stone-400 text-sm">
-                    Expected: <span className="text-amber-300 font-medium">{gradeResult.suggestedCorrection}</span>
+                  <p className="text-stone-400 text-base">
+                    expected: <span className={`text-amber-300 font-medium ${isRtl ? "font-arabic text-xl" : ""}`}>{gradeResult.suggestedCorrection}</span>
                   </p>
                 )}
               </div>
