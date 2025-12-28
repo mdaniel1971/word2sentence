@@ -398,6 +398,7 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
                   sourceLanguage={deck.source_language}
                   targetLanguage={deck.target_language}
                   isRtl={isRtl}
+                  excludeWord={currentQuestion.originalWord}
                 />
               </span>
             </CardTitle>

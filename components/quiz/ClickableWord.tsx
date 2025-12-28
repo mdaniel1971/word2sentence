@@ -236,7 +236,7 @@ export function ClickableWord({
           ) : analysis ? (
             <>
               <p className="text-stone-400 text-xs mb-1">Save word?</p>
-              <p className={`text-xl font-bold text-amber-400 mb-1 ${isRtl ? 'font-arabic text-right' : ''}`} dir={isRtl ? 'rtl' : 'ltr'}>
+              <p className={`text-xl font-bold text-amber-400 mb-1 text-left ${isRtl ? 'font-arabic' : ''}`}>
                 {analysis.rootForm}
               </p>
               <p className="text-stone-500 text-xs mb-1">
@@ -290,6 +290,7 @@ interface ClickableSentenceProps {
   sourceLanguage: string;
   targetLanguage: string;
   isRtl: boolean;
+  excludeWord?: string;
   onWordSaved?: () => void;
 }
 
@@ -299,6 +300,7 @@ export function ClickableSentence({
   sourceLanguage,
   targetLanguage,
   isRtl,
+  excludeWord,
   onWordSaved,
 }: ClickableSentenceProps) {
   // Split sentence into words while preserving spaces and punctuation
@@ -308,8 +310,17 @@ export function ClickableSentence({
     <span>
       {parts.map((part, index) => {
         // Check if this is a word (not whitespace or punctuation only)
-        const isWord = /[\u0600-\u06FF\w]+/.test(part);
+        const isWord = /[؀-ۿ\w]+/.test(part);
         
+        // Check if this word matches the excluded word (the word being tested)
+        const isExcluded = excludeWord && part.includes(excludeWord);
+        
+        // Excluded words (already in deck) render without click functionality
+        if (isWord && isExcluded) {
+          return <span key={index} className="text-amber-300">{part}</span>;
+        }
+        
+        // Regular words are clickable
         if (isWord) {
           return (
             <ClickableWord
