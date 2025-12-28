@@ -1,7 +1,15 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { Button } from '@/components/ui/button';
+
+interface WordAnalysis {
+  originalWord: string;
+  rootForm: string;
+  wordType: string;
+  translation: string;
+  details: Record<string, unknown>;
+}
 
 interface ClickableWordProps {
   word: string;
@@ -12,6 +20,8 @@ interface ClickableWordProps {
   onWordSaved?: () => void;
 }
 
+const LONG_PRESS_DURATION = 500; // ms
+
 export function ClickableWord({ 
   word, 
   deckId, 
@@ -21,14 +31,18 @@ export function ClickableWord({
   onWordSaved 
 }: ClickableWordProps) {
   const [showPopover, setShowPopover] = useState(false);
+  const [analyzing, setAnalyzing] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [analysis, setAnalysis] = useState<WordAnalysis | null>(null);
   const [message, setMessage] = useState<{ type: 'success' | 'error' | 'info'; text: string } | null>(null);
   const popoverRef = useRef<HTMLDivElement>(null);
   const wordRef = useRef<HTMLSpanElement>(null);
+  const longPressTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const isLongPressRef = useRef(false);
 
   // Close popover when clicking outside
   useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
+    function handleClickOutside(event: MouseEvent | TouchEvent) {
       if (
         popoverRef.current && 
         !popoverRef.current.contains(event.target as Node) &&
@@ -37,21 +51,104 @@ export function ClickableWord({
       ) {
         setShowPopover(false);
         setMessage(null);
+        setAnalysis(null);
       }
     }
 
     if (showPopover) {
       document.addEventListener('mousedown', handleClickOutside);
-      return () => document.removeEventListener('mousedown', handleClickOutside);
+      document.addEventListener('touchstart', handleClickOutside);
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+        document.removeEventListener('touchstart', handleClickOutside);
+      };
     }
   }, [showPopover]);
 
-  const handleWordClick = () => {
+  const analyzeWord = useCallback(async () => {
+    setAnalyzing(true);
+    setMessage(null);
+    
+    try {
+      const response = await fetch('/api/analyze-word', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          word,
+          sourceLanguage,
+          targetLanguage,
+        }),
+      });
+
+      const result = await response.json();
+      
+      if (result.success) {
+        setAnalysis(result);
+      } else {
+        setMessage({ type: 'error', text: result.error || 'Failed to analyze word' });
+      }
+    } catch (error) {
+      console.error('Error analyzing word:', error);
+      setMessage({ type: 'error', text: 'Failed to analyze word' });
+    } finally {
+      setAnalyzing(false);
+    }
+  }, [word, sourceLanguage, targetLanguage]);
+
+  const openPopover = useCallback(() => {
     setShowPopover(true);
     setMessage(null);
+    setAnalysis(null);
+    analyzeWord();
+  }, [analyzeWord]);
+
+  // Desktop: click to open
+  const handleClick = (e: React.MouseEvent) => {
+    // Prevent if this was a long press
+    if (isLongPressRef.current) {
+      isLongPressRef.current = false;
+      return;
+    }
+    e.preventDefault();
+    openPopover();
   };
 
+  // Mobile: long press to open
+  const handleTouchStart = useCallback(() => {
+    isLongPressRef.current = false;
+    longPressTimerRef.current = setTimeout(() => {
+      isLongPressRef.current = true;
+      openPopover();
+    }, LONG_PRESS_DURATION);
+  }, [openPopover]);
+
+  const handleTouchEnd = useCallback(() => {
+    if (longPressTimerRef.current) {
+      clearTimeout(longPressTimerRef.current);
+      longPressTimerRef.current = null;
+    }
+  }, []);
+
+  const handleTouchMove = useCallback(() => {
+    // Cancel long press if user moves finger
+    if (longPressTimerRef.current) {
+      clearTimeout(longPressTimerRef.current);
+      longPressTimerRef.current = null;
+    }
+  }, []);
+
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (longPressTimerRef.current) {
+        clearTimeout(longPressTimerRef.current);
+      }
+    };
+  }, []);
+
   const handleSave = async () => {
+    if (!analysis) return;
+    
     setSaving(true);
     setMessage(null);
 
@@ -78,6 +175,7 @@ export function ClickableWord({
         setTimeout(() => {
           setShowPopover(false);
           setMessage(null);
+          setAnalysis(null);
         }, 2000);
       } else {
         setMessage({ type: 'error', text: result.error || 'Failed to save word' });
@@ -93,14 +191,18 @@ export function ClickableWord({
   const handleCancel = () => {
     setShowPopover(false);
     setMessage(null);
+    setAnalysis(null);
   };
 
   return (
     <span className="relative inline-block">
       <span
         ref={wordRef}
-        onClick={handleWordClick}
-        className={`cursor-pointer hover:bg-amber-500/20 hover:text-amber-300 rounded px-0.5 transition-colors ${
+        onClick={handleClick}
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+        onTouchMove={handleTouchMove}
+        className={`cursor-pointer hover:bg-amber-500/20 hover:text-amber-300 rounded px-0.5 transition-colors select-none ${
           showPopover ? 'bg-amber-500/30 text-amber-300' : ''
         }`}
       >
@@ -110,7 +212,7 @@ export function ClickableWord({
       {showPopover && (
         <div
           ref={popoverRef}
-          className={`absolute z-50 mt-2 p-3 bg-stone-800 border border-stone-700 rounded-lg shadow-xl min-w-[180px] ${
+          className={`absolute z-50 mt-2 p-3 bg-stone-800 border border-stone-700 rounded-lg shadow-xl min-w-[200px] ${
             isRtl ? 'right-0' : 'left-0'
           }`}
           style={{ top: '100%' }}
@@ -123,9 +225,28 @@ export function ClickableWord({
             }`}>
               {message.text}
             </div>
-          ) : (
+          ) : analyzing ? (
+            <div className="flex items-center gap-2 text-stone-400 text-sm">
+              <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+              </svg>
+              Analyzing...
+            </div>
+          ) : analysis ? (
             <>
-              <p className="text-stone-300 text-sm mb-3">Save to words?</p>
+              <p className="text-stone-400 text-xs mb-1">Save word?</p>
+              <p className={`text-xl font-bold text-amber-400 mb-1 ${isRtl ? 'font-arabic text-right' : ''}`} dir={isRtl ? 'rtl' : 'ltr'}>
+                {analysis.rootForm}
+              </p>
+              <p className="text-stone-500 text-xs mb-1">
+                <span className="text-stone-600">(from </span>
+                <span className={isRtl ? 'font-arabic' : ''} dir={isRtl ? 'rtl' : 'ltr'}>{analysis.originalWord}</span>
+                <span className="text-stone-600">)</span>
+              </p>
+              <p className="text-stone-300 text-sm mb-3">
+                {analysis.translation} <span className="text-stone-500">• {analysis.wordType}</span>
+              </p>
               <div className="flex gap-2">
                 <Button
                   size="sm"
@@ -156,7 +277,7 @@ export function ClickableWord({
                 </Button>
               </div>
             </>
-          )}
+          ) : null}
         </div>
       )}
     </span>
