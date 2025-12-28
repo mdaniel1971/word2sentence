@@ -234,14 +234,14 @@ export function ClickableWord({
               Analyzing...
             </div>
           ) : analysis ? (
-            <>
+            <div className="text-left">
               <p className="text-stone-400 text-xs mb-1">Save word?</p>
-              <p className={`text-xl font-bold text-amber-400 mb-1 text-left ${isRtl ? 'font-arabic' : ''}`}>
+              <p className={`text-2xl font-bold text-amber-400 mb-1 ${isRtl ? 'font-arabic' : ''}`}>
                 {analysis.rootForm}
               </p>
-              <p className="text-stone-500 text-xs mb-1">
+              <p className="text-stone-500 text-base mb-1">
                 <span className="text-stone-600">(from </span>
-                <span className={isRtl ? 'font-arabic' : ''} dir={isRtl ? 'rtl' : 'ltr'}>{analysis.originalWord}</span>
+                <span className={`text-lg ${isRtl ? 'font-arabic' : ''}`}>{analysis.originalWord}</span>
                 <span className="text-stone-600">)</span>
               </p>
               <p className="text-stone-300 text-sm mb-3">
@@ -276,7 +276,7 @@ export function ClickableWord({
                   No
                 </Button>
               </div>
-            </>
+            </div>
           ) : null}
         </div>
       )}
