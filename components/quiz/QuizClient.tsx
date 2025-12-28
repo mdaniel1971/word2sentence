@@ -369,16 +369,29 @@ export function QuizClient({ deck, words, userId }: QuizClientProps) {
       
       <Card className="bg-stone-900/50 border-stone-800">
         <CardHeader className="text-center pb-4">
-          <Badge variant="secondary" className="w-fit mx-auto mb-4 bg-amber-600/20 text-amber-400 border-amber-700/50">
-            Word: {currentQuestion.originalWord}
-          </Badge>
-          <CardTitle
-            className={`text-2xl sm:text-3xl leading-relaxed ${isRtl ? 'font-arabic' : ''}`}
-            dir={isRtl ? 'rtl' : 'ltr'}
-          >
-            <span className="text-amber-50">{currentQuestion.sentence}</span>
-          </CardTitle>
-          <p className="text-stone-500 mt-3">
+          {/* Target word displayed prominently */}
+          <div className="mb-6">
+            <p className="text-stone-500 text-sm mb-2">Word being tested:</p>
+            <div 
+              className={`text-4xl sm:text-5xl font-bold text-amber-400 ${isRtl ? 'font-arabic' : ''}`}
+              dir={isRtl ? 'rtl' : 'ltr'}
+            >
+              {currentQuestion.originalWord}
+            </div>
+          </div>
+          
+          {/* Sentence to translate */}
+          <div className="bg-stone-800/50 rounded-xl p-4 border border-stone-700">
+            <p className="text-stone-500 text-xs mb-2 uppercase tracking-wide">Translate this sentence:</p>
+            <CardTitle
+              className={`text-xl sm:text-2xl leading-relaxed ${isRtl ? 'font-arabic' : ''}`}
+              dir={isRtl ? 'rtl' : 'ltr'}
+            >
+              <span className="text-amber-50">{currentQuestion.sentence}</span>
+            </CardTitle>
+          </div>
+          
+          <p className="text-stone-500 mt-4">
             Translate to {direction === 'source_to_target' ? deck.target_language : deck.source_language}
           </p>
         </CardHeader>
